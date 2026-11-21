@@ -158,12 +158,12 @@ function getYouTubeVideoId(url) {
   if (!url) return "";
   try {
     const parsed = new URL(url);
-    const host = parsed.hostname.replace(/^www\\./, "").replace(/^m\\./, "");
+    const host = parsed.hostname.replace(/^www\./, "").replace(/^m\./, "");
     let id = "";
     if (host === "youtu.be") id = parsed.pathname.split("/").filter(Boolean)[0] || "";
     else if (["youtube.com", "youtube-nocookie.com"].includes(host)) {
       if (parsed.pathname === "/watch") id = parsed.searchParams.get("v") || "";
-      else if (/^\\/(embed|shorts|live)\\//.test(parsed.pathname)) id = parsed.pathname.split("/")[2] || "";
+      else if (/^\/(embed|shorts|live)\//.test(parsed.pathname)) id = parsed.pathname.split("/")[2] || "";
     }
     return /^[A-Za-z0-9_-]{11}$/.test(id) ? id : "";
   } catch {
