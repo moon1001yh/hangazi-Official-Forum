@@ -1,0 +1,16 @@
+[
+  {
+    "id": "example-001",
+    "difficulty": "stellaria",
+    "diffNumber": "8",
+    "ranking": "1",
+    "rankingAccuracy": "±0.1",
+    "title": "Example Level",
+    "composer": "Composer",
+    "rating": "brilliant",
+    "creator": "Creator",
+    "youtube": "https://www.youtube.com/",
+    "googleDrive": "",
+    "tuf": ""
+  }
+]

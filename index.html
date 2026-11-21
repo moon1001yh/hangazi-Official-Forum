@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#564c56">
+  <meta name="description" content="별꽃정원 | hangazi Official Forum">
+  <title>별꽃정원 | hangazi Official Forum</title>
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand-mark" href="#home" aria-label="Home"><img src="assets/icon.png" alt="별꽃정원"></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#hangazi" data-i18n="navHangazi">hangazi</a>
+      <a href="#levels" data-i18n="navLevels">Level List</a>
+      <a href="#help" data-i18n="navHelp">Help</a>
+    </nav>
+    <label class="language-control">
+      <span class="sr-only" data-i18n="language">Language</span>
+      <select id="languageSelect" aria-label="Language">
+        <option value="ko">한국어</option>
+        <option value="en">English</option>
+      </select>
+    </label>
+  </header>
+
+  <main id="app">
+    <section id="home" class="page home-page">
+      <div class="home-content">
+        <img class="home-logo" src="assets/logo.png" alt="별꽃정원">
+        <h1 class="home-title">별꽃정원</h1>
+        <p class="home-subtitle">hangazi Official Forum</p>
+        <div class="home-actions">
+          <a class="button primary" href="#hangazi">hangazi</a>
+          <a class="button" href="#levels" data-i18n="navLevels">Level List</a>
+          <a class="button" href="#help" data-i18n="navHelp">Help</a>
+        </div>
+        <a class="spreadsheet-link" href="https://docs.google.com/spreadsheets/" target="_blank" rel="noopener">
+          <img src="assets/spreadsheet.png" alt="">
+          <span data-i18n="sourceSheet">Original Spreadsheet</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="hangazi" class="page content-page">
+      <div class="section-heading">
+        <p class="eyebrow">PROFILE</p>
+        <h1>한가지 <span>|</span> hangazi</h1>
+      </div>
+      <img class="profile-image" src="assets/hangazi Profile.png" alt="hangazi Profile">
+      <div class="social-links">
+        <a class="social-link" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><img src="assets/youtube.png" alt="YouTube"></a>
+        <a class="social-link" href="https://cosmopedia.example/" target="_blank" rel="noopener" aria-label="Cosmopedia"><img src="assets/cosmopedia.png" alt="Cosmopedia"></a>
+        <a class="social-link" href="https://tuf.example/" target="_blank" rel="noopener" aria-label="TUF"><img src="assets/tuf.png" alt="TUF"></a>
+      </div>
+      <div class="prose profile-description" data-i18n="profileDescription">
+        한가지(hangazi) 공식 포럼입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.
+      </div>
+    </section>
+
+    <section id="levels" class="page content-page">
+      <div class="section-heading">
+        <p class="eyebrow">DATABASE</p>
+        <h1 data-i18n="levelListTitle">Level List</h1>
+        <p class="muted" data-i18n="levelIntro">레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.</p>
+      </div>
+      <div class="filter-panel">
+        <label class="search-box">
+          <span class="sr-only" data-i18n="searchLabel">Search levels</span>
+          <input id="searchInput" type="search" placeholder="제목, 작곡가, 제작자 또는 ID 검색" data-i18n-placeholder="searchPlaceholder">
+        </label>
+        <div class="filter-row">
+          <label><span data-i18n="sortBy">Sort by</span>
+            <select id="sortBy">
+              <option value="ranking" data-i18n="sortRanking">순위</option>
+              <option value="id" data-i18n="sortId">ID</option>
+              <option value="difficulty" data-i18n="sortDifficulty">난이도</option>
+            </select>
+          </label>
+          <label><span data-i18n="order">Order</span>
+            <select id="sortOrder">
+              <option value="asc" data-i18n="ascending">오름차순</option>
+              <option value="desc" data-i18n="descending">내림차순</option>
+            </select>
+          </label>
+          <label><span data-i18n="difficultyFilter">Difficulty</span>
+            <select id="difficultyFilter">
+              <option value="all" data-i18n="allDifficulties">전체</option>
+              <option value="stellaria">stellaria</option>
+              <option value="cosmos">cosmos</option>
+              <option value="cosmos+">cosmos+</option>
+              <option value="nscosmos">nscosmos</option>
+              <option value="censored" data-i18n="censored">검열됨</option>
+            </select>
+          </label>
+        </div>
+        <div class="toggle-row">
+          <label class="check-label"><input id="showCensored" type="checkbox"><span data-i18n="showCensored">검열된 레벨 표시</span></label>
+          <label class="check-label"><input id="showStellaria" type="checkbox" checked><span>stellaria</span></label>
+          <label class="check-label"><input id="showCosmos" type="checkbox" checked><span>cosmos / cosmos+</span></label>
+          <label class="check-label"><input id="showNs" type="checkbox" checked><span>nscosmos</span></label>
+        </div>
+      </div>
+      <div class="results-meta"><span id="resultCount">0</span> <span data-i18n="levelsFound">levels found</span></div>
+      <div id="levelList" class="level-list" aria-live="polite"></div>
+      <p id="emptyState" class="empty-state" hidden data-i18n="noResults">조건에 맞는 레벨이 없습니다.</p>
+    </section>
+
+    <section id="level" class="page content-page">
+      <a class="back-link" href="#levels">← <span data-i18n="backToList">레벨 목록으로</span></a>
+      <div id="levelDetail"></div>
+    </section>
+
+    <section id="help" class="page content-page">
+      <div class="section-heading">
+        <p class="eyebrow">GUIDE</p>
+        <h1 data-i18n="helpTitle">Help</h1>
+        <p class="muted" data-i18n="helpIntro">레벨 목록에 사용되는 난이도와 추천도 표기 안내입니다.</p>
+      </div>
+      <div class="help-section">
+        <h2 data-i18n="difficultyGuide">난이도</h2>
+        <p data-i18n="difficultyExplain">일반 난이도는 레벨의 분류를, 숫자 난이도는 세부 난이도를 나타냅니다.</p>
+        <div class="difficulty-guide">
+          <span class="difficulty-badge stellaria">stellaria</span>
+          <span class="difficulty-badge cosmos">cosmos</span>
+          <span class="difficulty-badge cosmos-plus">cosmos+</span>
+          <span class="difficulty-badge nscosmos">cosmos</span>
+          <span class="difficulty-badge censored" data-i18n="censored">검열됨</span>
+        </div>
+        <p class="muted small" data-i18n="nscosmosNote">nscosmos는 사이트에서 cosmos로 표시되며, 색상으로 구분됩니다.</p>
+        <h3 data-i18n="numberDifficulty">숫자 난이도</h3>
+        <div id="numberDifficultyGuide" class="number-difficulty-guide"></div>
+        <p class="muted small" data-i18n="ns10Note">ns10은 사이트에서 10으로 표시되며 별도 색상으로 구분됩니다.</p>
+      </div>
+      <div class="help-section">
+        <h2 data-i18n="ratingGuide">추천도</h2>
+        <p data-i18n="ratingExplain">각 아이콘은 레벨에 대한 추천도를 나타냅니다.</p>
+        <div class="rating-guide">
+          <div><img src="assets/rating/normal.png" alt=""><span>normal</span></div>
+          <div><img src="assets/rating/great.png" alt=""><span>great</span></div>
+          <div><img src="assets/rating/brilliant.png" alt=""><span>brilliant</span></div>
+          <div><img src="assets/rating/cp2.png" alt=""><span>cp2</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><span>별꽃정원</span><span>·</span><span>hangazi Official Forum</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
