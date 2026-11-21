@@ -1,6 +1,6 @@
 @font-face {
   font-family: "godoMaum";
-  src: url("assets/fonts/godoMaum.woff2") format("woff2");
+  src: url("assets/fonts/godoMaum.ttf") format("ttf");
   font-display: swap;
 }
 :root { --bg:#564c56; --panel:#625762; --panel2:#4d444d; --text:#fff; --muted:#d5cbd5; --accent:#ebc1ff; --line:rgba(255,255,255,.16); --shadow:0 18px 50px rgba(25,17,25,.22); }
@@ -61,7 +61,7 @@ button,select,input { font:inherit; }
 .level-row { display:grid; grid-template-columns:76px 112px minmax(160px,1fr) 52px 140px auto; gap:14px; align-items:center; min-height:86px; padding:13px 18px; background:rgba(44,36,45,.3); border:1px solid var(--line); border-radius:13px; transition:.18s; }
 .level-row:hover { background:rgba(255,255,255,.1); transform:translateY(-2px); border-color:rgba(235,193,255,.55); }
 .rank { text-align:center; font-weight:800; font-size:22px; color:var(--accent); }
-.rank small { display:block; font-size:10px; font-weight:400; color:var(--muted); }
+.accuracy-mark { display:inline-block; margin-left:5px; font-size:13px; line-height:1; font-weight:800; vertical-align:super; }
 .diff-cell { display:flex; flex-direction:column; align-items:center; gap:7px; }
 .difficulty-badge { display:inline-flex; align-items:center; justify-content:center; border-radius:10px; padding:5px 10px; min-width:78px; font-size:11px; font-weight:700; color:white; }
 .stellaria { background:#4fe29c; }
@@ -130,3 +130,6 @@ footer { min-height:54px; border-top:1px solid var(--line); display:flex; align-
  .toggle-row { gap:10px 14px; }
  .check-label { font-size:11px; }
 }
+
+.video-embed { width:100%; aspect-ratio:16/9; margin:24px 0; overflow:hidden; border-radius:14px; background:#211c22; }
+.video-embed iframe { display:block; width:100%; height:100%; border:0; }
