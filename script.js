@@ -1,7 +1,7 @@
 const translations = {
   ko: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"언어", sourceSheet:"원본 스프레드시트",
-    profileDescription:"한가지(hangazi) 공식 포럼, 별꽃정원입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
+    profileDescription:"한가지(hangazi) 공식 포럼입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
     levelListTitle:"Level List", levelIntro:"레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.",
     searchLabel:"레벨 검색", searchPlaceholder:"제목, 작곡가, 제작자 또는 ID 검색", sortBy:"정렬 기준", sortRanking:"순위", sortId:"ID", sortDifficulty:"난이도",
     order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체",
@@ -16,7 +16,7 @@ const translations = {
   },
   en: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"Language", sourceSheet:"Original Spreadsheet",
-    profileDescription:"hangazi Official Forum. Explore the profile, links, level list, and related information.",
+    profileDescription:"The official hangazi forum. Explore the profile, links, level list, and related information.",
     levelListTitle:"Level List", levelIntro:"Search level information and sort it by your preferred criteria.",
     searchLabel:"Search levels", searchPlaceholder:"Search by title, composer, creator, or ID", sortBy:"Sort by", sortRanking:"Ranking", sortId:"ID", sortDifficulty:"Difficulty",
     order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All",
