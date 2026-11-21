@@ -70,7 +70,7 @@ button,select,input { font:inherit; }
 .cosmos,.cosmos-plus { background:#e24f80; }
 .nscosmos { background:#94c4b8; color:#5a716c; }
 .censored { background:#431f33; color:white; }
-.diff-number { font-family:godoMaum,Arial,sans-serif; font-size:22px; font-weight:800; -webkit-text-stroke:.35px #171217; paint-order:stroke fill; }
+.diff-number { font-family:godoMaum,Arial,sans-serif; font-size:22px; font-weight:800; -webkit-text-stroke:2px #171217; paint-order:stroke fill; }
 .level-title { min-width:0; font-size:16px; font-weight:700; overflow-wrap:anywhere; }
 .level-title small { display:block; color:var(--muted); font-size:10px; font-weight:400; margin-bottom:5px; }
 .rating-icon { width:32px; height:32px; object-fit:contain; display:block; margin:auto; }
@@ -95,7 +95,7 @@ button,select,input { font:inherit; }
 .help-section p { line-height:1.8; }
 .difficulty-guide { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
 .number-difficulty-guide { display:flex; flex-wrap:wrap; gap:9px; }
-.number-chip { min-width:38px; padding:6px 9px; text-align:center; border-radius:8px; font-family:godoMaum,Arial,sans-serif; font-size:17px; -webkit-text-stroke:.35px #171217; paint-order:stroke fill; }
+.number-chip { min-width:38px; padding:6px 9px; text-align:center; border-radius:8px; font-family:godoMaum,Arial,sans-serif; font-size:17px; -webkit-text-stroke:2px #171217; paint-order:stroke fill; }
 .small { font-size:12px; }
 .rating-guide { display:flex; flex-wrap:wrap; gap:25px; margin-top:20px; }
 .rating-guide div { display:flex; flex-direction:column; align-items:center; gap:8px; font-size:13px; }
