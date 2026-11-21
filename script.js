@@ -1,7 +1,7 @@
 const translations = {
   ko: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"언어", sourceSheet:"원본 스프레드시트",
-    profileDescription:"한가지(hangazi) 공식 포럼입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
+    profileDescription:"한가지(hangazi) 공식 포럼, 별꽃정원입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
     levelListTitle:"Level List", levelIntro:"레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.",
     searchLabel:"레벨 검색", searchPlaceholder:"제목, 작곡가, 제작자 또는 ID 검색", sortBy:"정렬 기준", sortRanking:"순위", sortId:"ID", sortDifficulty:"난이도",
     order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체",
@@ -16,7 +16,7 @@ const translations = {
   },
   en: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"Language", sourceSheet:"Original Spreadsheet",
-    profileDescription:"The official hangazi forum. Explore the profile, links, level list, and related information.",
+    profileDescription:"hangazi Official Forum. Explore the profile, links, level list, and related information.",
     levelListTitle:"Level List", levelIntro:"Search level information and sort it by your preferred criteria.",
     searchLabel:"Search levels", searchPlaceholder:"Search by title, composer, creator, or ID", sortBy:"Sort by", sortRanking:"Ranking", sortId:"ID", sortDifficulty:"Difficulty",
     order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All",
@@ -71,6 +71,16 @@ function ratingImage(value) {
   const safe = ["normal","great","brilliant","cp2"].includes(value) ? value : "normal";
   return `assets/rating/${safe}.png`;
 }
+function accuracyMark(value) {
+  const marks = {
+    ref: ["✦", "#4fdfe2"],
+    fixed: ["✔", "#4fe29c"],
+    unfixed: ["?", "#ffee3e"],
+    no: ["✘", "#e24f80"]
+  };
+  const [symbol, color] = marks[String(value || "").toLowerCase()] || ["", "#ffffff"];
+  return symbol ? `<small class="accuracy-mark" style="color:${color}" title="${escapeHTML(value)}">${symbol}</small>` : "";
+}
 function escapeHTML(value="") {
   return String(value).replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 }
@@ -121,12 +131,14 @@ function renderLevels() {
     const num = String(level.diffNumber ?? "");
     const [color,stroke] = numberColors[num] || ["#ebc1ff","#000"];
     const links = [
-      externalLink(level.youtube,"YouTube",levelLinkIcon("youtube.png","YouTube")),
-      externalLink(level.googleDrive,"Google Drive",levelLinkIcon("google-drive.png","Google Drive")),
-      externalLink(level.tuf,"TUF",levelLinkIcon("tuf.png","TUF"))
+      externalLink(level.youtube,"YouTube",levelLinkIcon("icon/youtube.png","YouTube")),
+      externalLink(level.cosmopedia,"Cosmopedia",levelLinkIcon("icon/cosmopedia.png","Cosmopedia")),
+      externalLink(level.googleDrive,"Google Drive",levelLinkIcon("icon/google-drive.png","Google Drive")),
+      externalLink(level.tuf,"TUF",levelLinkIcon("icon/tuf.png","TUF")),
+      externalLink(level.steam,"Steam",levelLinkIcon("icon/steam.png","Steam"))
     ].filter(Boolean).join("");
     return `<a class="level-row" href="#level/${encodeURIComponent(level.id)}">
-      <div class="rank">#${escapeHTML(level.ranking)}<small>${escapeHTML(level.rankingAccuracy || "")}</small></div>
+      <div class="rank">#${escapeHTML(level.ranking)}${accuracyMark(level.rankingAccuracy)}</div>
       <div class="diff-cell"><span class="difficulty-badge ${difficultyClass(diff)}">${escapeHTML(difficultyLabel(diff))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(num))}</span></div>
       <div class="level-title"><small>ID: ${escapeHTML(level.id)} - ${escapeHTML(level.composer)}</small>${escapeHTML(level.title)}</div>
       <img class="rating-icon" src="${ratingImage(level.rating)}" alt="${escapeHTML(level.rating)}" title="${escapeHTML(level.rating)}">
@@ -142,6 +154,22 @@ function renderNumberGuide() {
     return `<span class="number-chip" style="background:${color};color:${color};-webkit-text-stroke-color:${stroke}">${numericLabel(value)}</span>`;
   }).join("");
 }
+function getYouTubeVideoId(url) {
+  if (!url) return "";
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\\./, "").replace(/^m\\./, "");
+    let id = "";
+    if (host === "youtu.be") id = parsed.pathname.split("/").filter(Boolean)[0] || "";
+    else if (["youtube.com", "youtube-nocookie.com"].includes(host)) {
+      if (parsed.pathname === "/watch") id = parsed.searchParams.get("v") || "";
+      else if (/^\\/(embed|shorts|live)\\//.test(parsed.pathname)) id = parsed.pathname.split("/")[2] || "";
+    }
+    return /^[A-Za-z0-9_-]{11}$/.test(id) ? id : "";
+  } catch {
+    return "";
+  }
+}
 function renderDetail(id) {
   const level = levels.find(item => String(item.id) === String(id));
   const target = $("#levelDetail");
@@ -152,16 +180,27 @@ function renderDetail(id) {
     ["difficulty",`${difficultyLabel(level.difficulty)} / ${numericLabel(level.diffNumber)}`],
     ["levelId",level.id],["composer",level.composer],["creator",level.creator],["rating",level.rating]
   ];
+  const youtubeId = getYouTubeVideoId(level.youtube);
+  const videoEmbed = youtubeId ? `<div class="video-embed"><iframe
+      src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(youtubeId)}"
+      title="${escapeHTML(level.title)} - YouTube"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe></div>` : "";
   target.innerHTML = `<article class="detail-card">
     <p class="eyebrow">LEVEL INFORMATION</p>
     <h1>${escapeHTML(level.title)}</h1>
     <p class="detail-sub">ID: ${escapeHTML(level.id)} · ${escapeHTML(level.composer)}</p>
     <div class="diff-cell" style="align-items:flex-start;margin-bottom:24px"><span class="difficulty-badge ${difficultyClass(level.difficulty)}">${escapeHTML(difficultyLabel(level.difficulty))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(String(level.diffNumber)))}</span></div>
+    ${videoEmbed}
     <div class="detail-grid">${detail.map(([key,value]) => `<div class="detail-item"><span>${t(key)}</span><strong>${escapeHTML(value ?? "—")}</strong></div>`).join("")}</div>
     <div class="detail-links">
       ${level.youtube ? `<a href="${escapeHTML(level.youtube)}" target="_blank" rel="noopener">YouTube ↗</a>` : ""}
+      ${level.cosmopedia ? `<a href="${escapeHTML(level.cosmopedia)}" target="_blank" rel="noopener">Cosmopedia ↗</a>` : ""}
       ${level.googleDrive ? `<a href="${escapeHTML(level.googleDrive)}" target="_blank" rel="noopener">Google Drive ↗</a>` : ""}
       ${level.tuf ? `<a href="${escapeHTML(level.tuf)}" target="_blank" rel="noopener">TUF ↗</a>` : ""}
+      ${level.steam ? `<a href="${escapeHTML(level.steam)}" target="_blank" rel="noopener">Steam ↗</a>` : ""}
     </div>
   </article>`;
 }
