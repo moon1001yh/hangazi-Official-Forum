@@ -201,8 +201,8 @@ function renderDetail(id) {
       allowfullscreen></iframe></div>` : "";
   target.innerHTML = `<article class="detail-card">
     <p class="eyebrow">LEVEL INFORMATION</p>
-    <h1>${escapeHTML(level.title)}</h1>
-    <p class="detail-sub">ID: ${escapeHTML(level.id)} · ${escapeHTML(level.composer)}</p>
+    <h1>${escapeHTML(level.composer)} - ${escapeHTML(level.title)}</h1>
+    <p class="detail-sub">ID: ${escapeHTML(level.id)}</p>
     <div class="diff-cell" style="align-items:flex-start;margin-bottom:24px"><span class="difficulty-badge ${difficultyClass(level.difficulty)}">${escapeHTML(difficultyLabel(level.difficulty))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(String(level.diffNumber)))}</span></div>
     ${videoEmbed}
     <div class="detail-grid">${detail.map(([key,value]) => `<div class="detail-item"><span>${t(key)}</span><strong>${escapeHTML(value ?? "—")}</strong></div>`).join("")}</div>
