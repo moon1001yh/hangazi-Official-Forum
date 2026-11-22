@@ -15,6 +15,21 @@
     "bpm": "195"
   },
   {
+    "id": "18",
+    "difficulty": "stellaria",
+    "diffNumber": "1",
+    "ranking": "256",
+    "rankingAccuracy": "ref",
+    "title": "Extinction",
+    "composer": "Riya",
+    "rating": "normal",
+    "creator": "상추융합체",
+    "youtube": "https://youtu.be/woQtDf349Yg",
+    "release": "2020. 6. 30",
+    "length": "3:03",
+    "bpm": "145"
+  },
+  {
     "id": "248",
     "difficulty": "cosmos",
     "diffNumber": "10",
