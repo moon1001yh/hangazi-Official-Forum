@@ -239,7 +239,7 @@ async function loadLevels() {
   }
   renderLevels();
 }
-document.querySelectorAll("#searchInput,#sortBy,#sortOrder,#ratingFilter,#showCensored,#showStellaria,#showCosmos,#showNs")
+document.querySelectorAll("#searchInput,#sortBy,#sortOrder,#ratingFilter,#showCensored,#showStellaria,#showCosmos,#showCosmosplus")
   .forEach(control => control.addEventListener(control.type === "search" ? "input" : "change", renderLevels));
 $("#languageSelect").value = currentLang;
 $("#languageSelect").addEventListener("change", event => setLanguage(event.target.value));
