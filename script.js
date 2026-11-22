@@ -99,7 +99,8 @@ function externalLink(url, label, icon) {
   return `<a href="${escapeHTML(url)}" target="_blank" rel="noopener" aria-label="${label}" title="${label}">${icon}</a>`;
 }
 function levelLinkIcon(file, label) {
-  return `<img src="assets/${file}" alt="${label}">`;
+  return `<img src="assets/${file}" alt="${label}"
+    onerror="this.closest('a').remove()">`;
 }
 function sortLevels(list) {
   const key = $("#sortBy")?.value || "ranking";
