@@ -78,6 +78,7 @@ button,select,input { font:inherit; }
 .creator { color:#f3eaf4; font-size:13px; overflow-wrap:anywhere; }
 .level-links { display:flex; justify-content:flex-end; gap:8px; }
 .level-links a { display:grid; place-items:center; width:28px; height:28px; border-radius:7px; background:rgba(255,255,255,.1); }
+.level-links a:empty { display: none; }
 .level-links img { width:19px; height:19px; object-fit:contain; }
 .empty-state { text-align:center; padding:50px 15px; color:var(--muted); }
 .back-link { display:inline-block; margin-bottom:26px; color:var(--accent); }
