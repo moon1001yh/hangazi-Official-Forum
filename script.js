@@ -1,13 +1,13 @@
 const translations = {
   ko: {
     navHangazi:"한가지", navLevels:"레벨 목록", navHelp:"도움말", language:"언어", sourceSheet:"원본 스프레드시트",
-    profileDescription:"한가지(hangazi) 공식 포럼입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
+    profileDescription:"2020년 3월 25일부터 2026년 9월 27일까지 활동한 '불과 얼음의 춤' 레벨 제작자입니다.\n\n총 2377일의 활동 기간 동안 TremENDouS, Fallen Symphony, Icyxis, [ns], Parallel Universe Shifter, HALL, REX 등 수많은 영향력있는 레벨들을 제작했으며, 불과 얼음의 춤 레벨 제작 판에 수많은 기믹들을 통해 큰 영향력을 끼친 레벨 제작자입니다.\n\n한가지에 대한 자세한 내용은 그의 코스모피디아 페이지를 참고해주세요.",
     levelListTitle:"Level List", levelIntro:"레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.",
     searchLabel:"레벨 검색", searchPlaceholder:"제목, 작곡가, 제작자 또는 ID 검색", sortBy:"정렬 기준", sortRanking:"순위", sortId:"ID", sortDifficulty:"난이도",
     order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체", ratingFilter:"추천도 필터", allRatings:"전체",
     stellariaExplain:"숫자 난이도 1에서 5까지의 레벨입니다. TremENDouS보다 쉬운 레벨들에 해당됩니다.", cosmosExplain:"숫자 난이도 6에서 10까지의 레벨입니다. TremENDouS 이상의 난이도를 가진 레벨들에 해당됩니다.",
     cosmosPlusExplain:"cosmos 난이도의 레벨들 중 10키 이내로 클리어될 수 없다고 판단되는 레벨들에 해당됩니다.", censoredExplain:"검열 대상으로 분류된 레벨들에 해당됩니다.",
-    censorshipCriteriaTitle:"검열 기준", censorshipCriteria:"퀄리티 미달 : 퀄리티와 가독성 문제로 플레이를 권장하지 않는 레벨입니다.\n\n불가능 : 숫자 난이도 10 초과의 너무 어려운 레벨입니다.\n\n저작권 : 저작권 문제로 플레이를 권장하지 않는 레벨입니다. (이에 해당되는 레벨은 숨김 처리됐습니다)\n\n비친화적 : 위 세 문제 외의 다른 요인으로 검열 처리된 레벨입니다..",
+    censorshipCriteriaTitle:"검열 기준", censorshipCriteria:"퀄리티 미달 : 퀄리티와 가독성 문제로 플레이를 권장하지 않는 레벨입니다.\n\n불가능 : 숫자 난이도 10 초과의 너무 어려운 레벨입니다.\n\n저작권 : 저작권 문제로 플레이를 권장하지 않는 레벨입니다. (이에 해당되는 레벨은 숨김 처리됐습니다)\n\n비친화적 : 위 세 문제 외의 다른 요인으로 검열 처리된 레벨입니다.",
     censored:"검열됨", showCensored:"검열된 레벨 표시", levelsFound:"개의 레벨", noResults:"조건에 맞는 레벨이 없습니다.",
     backToList:"레벨 목록으로", helpTitle:"Help", helpIntro:"레벨 목록에 사용되는 난이도와 추천도 표기 안내입니다.",
     difficultyGuide:"난이도", difficultyExplain:"일반 난이도는 레벨의 분류를, 숫자 난이도는 세부 난이도를 나타냅니다.",
@@ -19,7 +19,7 @@ const translations = {
   },
   en: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"Language", sourceSheet:"Original Spreadsheet",
-    profileDescription:"hangazi Official Forum. Explore the profile, links, level list, and related information.",
+    profileDescription:"A level creator for A Dance of Fire and Ice who was active from March 25, 2020, to September 27, 2026.\n\nOver a span of 2,377 days, they created numerous influential levels—such as TremENDouS, Fallen Symphony, Icyxis, [ns], Parallel Universe Shifter, HALL, and REX—and left a significant mark on the ADOFAI level-creation community through the introduction of various creative gimmicks.\n\nFor further details, please refer to their Cosmopedia page.",
     levelListTitle:"Level List", levelIntro:"Search level information and sort it by your preferred criteria.",
     searchLabel:"Search levels", searchPlaceholder:"Search by title, composer, creator, or ID", sortBy:"Sort by", sortRanking:"Ranking", sortId:"ID", sortDifficulty:"Difficulty",
     order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All", ratingFilter:"Rating filter", allRatings:"All",
