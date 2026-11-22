@@ -86,14 +86,12 @@
               <option value="desc" data-i18n="descending">내림차순</option>
             </select>
           </label>
-          <label><span data-i18n="difficultyFilter">Difficulty</span>
-            <select id="difficultyFilter">
-              <option value="all" data-i18n="allDifficulties">전체</option>
-              <option value="stellaria">stellaria</option>
-              <option value="cosmos">cosmos</option>
-              <option value="cosmos+">cosmos+</option>
-              <option value="nscosmos">nscosmos</option>
-              <option value="censored" data-i18n="censored">검열됨</option>
+          <label><span data-i18n="ratingFilter">추천도 필터</span>
+            <select id="ratingFilter">
+              <option value="all" data-i18n="allRatings">전체</option>
+              <option value="normal">Normal</option>
+              <option value="great">Great</option>
+              <option value="brilliant">Brilliant</option>
             </select>
           </label>
         </div>
@@ -124,25 +122,27 @@
         <h2 data-i18n="difficultyGuide">난이도</h2>
         <p data-i18n="difficultyExplain">일반 난이도는 레벨의 분류를, 숫자 난이도는 세부 난이도를 나타냅니다.</p>
         <div class="difficulty-guide">
-          <span class="difficulty-badge stellaria">stellaria</span>
-          <span class="difficulty-badge cosmos">cosmos</span>
-          <span class="difficulty-badge cosmos-plus">cosmos+</span>
-          <span class="difficulty-badge nscosmos">cosmos</span>
-          <span class="difficulty-badge censored" data-i18n="censored">검열됨</span>
+          <div class="difficulty-guide-row"><span class="difficulty-badge stellaria">stellaria</span><span data-i18n="stellariaExplain">기본 난이도 분류 중 하나입니다.</span></div>
+          <div class="difficulty-guide-row"><span class="difficulty-badge cosmos">cosmos</span><span data-i18n="cosmosExplain">높은 난이도의 레벨을 분류합니다.</span></div>
+          <div class="difficulty-guide-row"><span class="difficulty-badge cosmos-plus">cosmos+</span><span data-i18n="cosmosPlusExplain">cosmos보다 상위 난이도 분류입니다.</span></div>
+          <div class="difficulty-guide-row"><span class="difficulty-badge censored" data-i18n="censored">검열됨</span><span data-i18n="censoredExplain">검열 대상으로 분류된 레벨입니다.</span></div>
         </div>
-        <p class="muted small" data-i18n="nscosmosNote">nscosmos는 사이트에서 cosmos로 표시되며, 색상으로 구분됩니다.</p>
         <h3 data-i18n="numberDifficulty">숫자 난이도</h3>
         <div id="numberDifficultyGuide" class="number-difficulty-guide"></div>
-        <p class="muted small" data-i18n="ns10Note">ns10은 사이트에서 10으로 표시되며 별도 색상으로 구분됩니다.</p>
+
+      </div>
+      <div class="help-section censorship-guide">
+        <h2 data-i18n="censorshipCriteriaTitle">검열 기준</h2>
+        <p data-i18n="censorshipCriteria">검열 표시는 운영자가 정한 공개 기준에 따라 적용됩니다. 개별 레벨의 검열 여부는 목록에 표시된 분류를 따릅니다.</p>
       </div>
       <div class="help-section">
         <h2 data-i18n="ratingGuide">추천도</h2>
         <p data-i18n="ratingExplain">각 아이콘은 레벨에 대한 추천도를 나타냅니다.</p>
         <div class="rating-guide">
-          <div><img src="assets/rating/normal.png" alt=""><span>normal</span></div>
-          <div><img src="assets/rating/great.png" alt=""><span>great</span></div>
-          <div><img src="assets/rating/brilliant.png" alt=""><span>brilliant</span></div>
-          <div><img src="assets/rating/cp2.png" alt=""><span>cp2</span></div>
+          <div><img src="assets/rating/normal.png" alt=""><span>Normal</span></div>
+          <div><img src="assets/rating/great.png" alt=""><span>Great</span></div>
+          <div><img src="assets/rating/brilliant.png" alt=""><span>Brilliant</span></div>
+
         </div>
       </div>
     </section>

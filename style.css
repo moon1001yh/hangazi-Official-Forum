@@ -60,7 +60,7 @@ button,select,input { font:inherit; }
 .results-meta { color:var(--muted); font-size:13px; margin:22px 2px 12px; }
 .results-meta #resultCount { color:var(--accent); font-weight:700; }
 .level-list { display:flex; flex-direction:column; gap:9px; }
-.level-row { display:grid; grid-template-columns:76px 112px minmax(160px,1fr) 52px 140px auto; gap:14px; align-items:center; min-height:86px; padding:13px 18px; background:rgba(44,36,45,.3); border:1px solid var(--line); border-radius:13px; transition:.18s; }
+.level-row { display:grid; grid-template-columns:76px 112px minmax(160px,1fr) 48px 125px auto; gap:14px; align-items:center; min-height:86px; padding:13px 18px; background:rgba(44,36,45,.3); border:1px solid var(--line); border-radius:13px; transition:.18s; }
 .level-row:hover { background:rgba(255,255,255,.1); transform:translateY(-2px); border-color:rgba(235,193,255,.55); }
 .rank { text-align:center; font-weight:800; font-size:22px; color:var(--accent); }
 .accuracy-mark { display:inline-block; margin-left:5px; font-size:13px; line-height:1; font-weight:800; vertical-align:super; }
@@ -68,11 +68,12 @@ button,select,input { font:inherit; }
 .difficulty-badge { display:inline-flex; align-items:center; justify-content:center; border-radius:10px; padding:5px 10px; min-width:78px; font-size:11px; font-weight:700; color:white; }
 .stellaria { background:#4fe29c; }
 .cosmos,.cosmos-plus { background:#e24f80; }
-.nscosmos { background:#94c4b8; color:#5a716c; }
 .censored { background:#431f33; color:white; }
-.diff-number { font-family:godoMaum,Arial,sans-serif; font-size:22px; font-weight:800; -webkit-text-stroke:2px #171217; paint-order:stroke fill; }
+.diff-number { font-family:godoMaum,Arial,sans-serif; font-size:50px; font-weight:800; -webkit-text-stroke:2px #171217; paint-order:stroke fill; }
 .level-title { min-width:0; font-size:16px; font-weight:700; overflow-wrap:anywhere; }
-.level-title small { display:block; color:var(--muted); font-size:10px; font-weight:400; margin-bottom:5px; }
+.level-title small { display:block; color:var(--muted); font-size:12px; font-weight:400; margin-bottom:5px; }
+.level-title .level-composer { color:var(--muted); font-size:13px; font-weight:400; }
+.level-title .level-meta { margin:5px 0 0; font-size:10px; color:#cfc4d0; }
 .rating-icon { width:32px; height:32px; object-fit:contain; display:block; margin:auto; }
 .creator { color:#f3eaf4; font-size:13px; overflow-wrap:anywhere; }
 .level-links { display:flex; justify-content:flex-end; gap:8px; }
@@ -88,12 +89,15 @@ button,select,input { font:inherit; }
 .detail-item span { display:block; color:var(--muted); font-size:11px; margin-bottom:6px; }
 .detail-item strong { overflow-wrap:anywhere; }
 .detail-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
-.detail-links a { padding:10px 15px; border:1px solid var(--line); border-radius:9px; color:var(--accent); }
+.detail-links a { display:grid; place-items:center; width:42px; height:42px; padding:7px; border:1px solid var(--line); border-radius:9px; background:rgba(255,255,255,.06); }
+.detail-links img { width:24px; height:24px; object-fit:contain; }
 .help-section { margin:24px auto; padding:26px; background:rgba(44,36,45,.28); border:1px solid var(--line); border-radius:17px; }
 .help-section h2 { margin:0 0 10px; }
 .help-section h3 { margin-top:28px; }
 .help-section p { line-height:1.8; }
-.difficulty-guide { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+.difficulty-guide { display:flex; flex-direction:column; gap:13px; margin:20px 0; }
+.difficulty-guide-row { display:flex; align-items:center; gap:14px; }
+.difficulty-guide-row > span:last-child { color:#f0eaf0; font-size:13px; line-height:1.6; }
 .number-difficulty-guide { display:flex; flex-wrap:wrap; gap:9px; }
 .number-chip { min-width:38px; padding:6px 9px; text-align:center; border-radius:8px; font-family:godoMaum,Arial,sans-serif; font-size:17px; -webkit-text-stroke:2px #171217; paint-order:stroke fill; }
 .small { font-size:12px; }
@@ -118,9 +122,11 @@ footer { min-height:54px; border-top:1px solid var(--line); display:flex; align-
  .rank { font-size:18px; }
  .rank small { font-size:8px; }
  .difficulty-badge { min-width:70px; padding:5px 6px; font-size:9px; }
- .diff-number { font-size:19px; }
+ .diff-number { font-size:42px; }
  .level-title { font-size:13px; }
- .level-title small { font-size:9px; }
+ .level-title small { font-size:11px; }
+ .level-title .level-composer { font-size:11px; }
+ .level-title .level-meta { font-size:9px; }
  .rating-icon { width:27px;height:27px; }
  .detail-card { padding:22px 16px; }
 }

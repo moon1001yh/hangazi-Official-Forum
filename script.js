@@ -4,14 +4,17 @@ const translations = {
     profileDescription:"한가지(hangazi) 공식 포럼입니다. 프로필과 링크, 레벨 목록 및 관련 안내를 확인할 수 있습니다.",
     levelListTitle:"Level List", levelIntro:"레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.",
     searchLabel:"레벨 검색", searchPlaceholder:"제목, 작곡가, 제작자 또는 ID 검색", sortBy:"정렬 기준", sortRanking:"순위", sortId:"ID", sortDifficulty:"난이도",
-    order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체",
+    order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체", ratingFilter:"추천도 필터", allRatings:"전체",
+    stellariaExplain:"stellaria 등급으로 분류된 레벨입니다.", cosmosExplain:"cosmos 등급으로 분류된 레벨입니다.",
+    cosmosPlusExplain:"cosmos보다 상위 단계의 난이도 분류입니다.", censoredExplain:"검열 대상으로 분류된 레벨입니다.",
+    censorshipCriteriaTitle:"검열 기준", censorshipCriteria:"검열 표시는 운영자가 정한 공개 기준에 따라 적용됩니다. 개별 레벨의 검열 여부는 목록에 표시된 분류를 따릅니다.",
     censored:"검열됨", showCensored:"검열된 레벨 표시", levelsFound:"개의 레벨", noResults:"조건에 맞는 레벨이 없습니다.",
     backToList:"레벨 목록으로", helpTitle:"Help", helpIntro:"레벨 목록에 사용되는 난이도와 추천도 표기 안내입니다.",
     difficultyGuide:"난이도", difficultyExplain:"일반 난이도는 레벨의 분류를, 숫자 난이도는 세부 난이도를 나타냅니다.",
-    nscosmosNote:"nscosmos는 사이트에서 cosmos로 표시되며, 색상으로 구분됩니다.", numberDifficulty:"숫자 난이도",
-    ns10Note:"ns10은 사이트에서 10으로 표시되며 별도 색상으로 구분됩니다.", ratingGuide:"추천도",
+    numberDifficulty:"숫자 난이도",
+    ratingGuide:"추천도",
     ratingExplain:"각 아이콘은 레벨에 대한 추천도를 나타냅니다.", rank:"순위", accuracy:"정확도", difficulty:"난이도",
-    title:"제목", composer:"작곡가", creator:"제작자", rating:"추천도", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
+    title:"제목", composer:"작곡가", creator:"제작자", team:"팀", length:"길이", bpm:"BPM", rating:"추천도", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
     levelNotFound:"레벨을 찾을 수 없습니다.", back:"목록으로 돌아가기"
   },
   en: {
@@ -19,14 +22,17 @@ const translations = {
     profileDescription:"hangazi Official Forum. Explore the profile, links, level list, and related information.",
     levelListTitle:"Level List", levelIntro:"Search level information and sort it by your preferred criteria.",
     searchLabel:"Search levels", searchPlaceholder:"Search by title, composer, creator, or ID", sortBy:"Sort by", sortRanking:"Ranking", sortId:"ID", sortDifficulty:"Difficulty",
-    order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All",
+    order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All", ratingFilter:"Rating filter", allRatings:"All",
+    stellariaExplain:"Levels classified in the stellaria tier.", cosmosExplain:"Levels classified in the cosmos tier.",
+    cosmosPlusExplain:"A difficulty tier above cosmos.", censoredExplain:"Levels classified as censored.",
+    censorshipCriteriaTitle:"Censorship criteria", censorshipCriteria:"The censored label follows the site's publication guidelines. Check the classification shown in the level list for each level.",
     censored:"Censored", showCensored:"Show censored levels", levelsFound:"levels found", noResults:"No levels match your filters.",
     backToList:"Back to level list", helpTitle:"Help", helpIntro:"A guide to the difficulty and rating labels used in the level list.",
     difficultyGuide:"Difficulty", difficultyExplain:"The general tier shows the level category, while the numeric value indicates its detailed difficulty.",
-    nscosmosNote:"nscosmos is displayed as cosmos on this site and is distinguished by its color.", numberDifficulty:"Numeric difficulty",
-    ns10Note:"ns10 is displayed as 10 on this site and uses a distinct color.", ratingGuide:"Rating",
+    numberDifficulty:"Numeric difficulty",
+    ratingGuide:"Rating",
     ratingExplain:"Each icon represents the community rating for a level.", rank:"Rank", accuracy:"Accuracy", difficulty:"Difficulty",
-    title:"Title", composer:"Composer", creator:"Creator", rating:"Rating", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
+    title:"Title", composer:"Composer", creator:"Creator", team:"Team", length:"Length", bpm:"BPM", rating:"Rating", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
     levelNotFound:"Level not found.", back:"Back to list"
   }
 };
@@ -35,9 +41,9 @@ const numberColors = {
   "1":["#f2d7ff","#000"], "2":["#ebc1ff","#000"], "3":["#e3a9ff","#000"],
   "4":["#de9bff","#000"], "5":["#cd92ea","#000"], "6":["#bc97d0","#fff"],
   "7":["#9d89a7","#fff"], "8":["#756a7b","#fff"], "9":["#564c56","#fff"],
-  "10":["#373030","#fff"], "11":["#431f33","#fff"], "ns10":["#2b3836","#fff"]
+  "10":["#373030","#fff"], "11":["#431f33","#fff"]
 };
-const difficultyOrder = {stellaria:1, cosmos:2, "cosmos+":3, nscosmos:4, censored:5};
+const difficultyOrder = {stellaria:1, cosmos:2, "cosmos+":3, censored:5};
 let levels = [];
 let currentLang = localStorage.getItem("site-language") || "ko";
 
@@ -61,14 +67,18 @@ function setLanguage(lang) {
 }
 function difficultyLabel(code) {
   if (code === "censored") return t("censored");
-  return code === "nscosmos" ? "cosmos" : code;
+  return code;
 }
 function difficultyClass(code) {
   return code === "cosmos+" ? "cosmos-plus" : code;
 }
-function numericLabel(value) { return value === "ns10" ? "10" : value; }
+function numericLabel(value) { return value; }
+function ratingLabel(value) {
+  const labels = {normal:"Normal", great:"Great", brilliant:"Brilliant"};
+  return labels[String(value || "").toLowerCase()] || "Normal";
+}
 function ratingImage(value) {
-  const safe = ["normal","great","brilliant","cp2"].includes(value) ? value : "normal";
+  const safe = ["normal","great","brilliant"].includes(value) ? value : "normal";
   return `assets/rating/${safe}.png`;
 }
 function accuracyMark(value) {
@@ -98,8 +108,8 @@ function sortLevels(list) {
     let av, bv;
     if (key === "id") { av = String(a.id ?? ""); bv = String(b.id ?? ""); }
     else if (key === "difficulty") {
-      av = (difficultyOrder[a.difficulty] || 99) * 100 + (a.diffNumber === "ns10" ? 10 : Number(a.diffNumber) || 0);
-      bv = (difficultyOrder[b.difficulty] || 99) * 100 + (b.diffNumber === "ns10" ? 10 : Number(b.diffNumber) || 0);
+      av = (difficultyOrder[a.difficulty] || 99) * 100 + (Number(a.diffNumber) || 0);
+      bv = (difficultyOrder[b.difficulty] || 99) * 100 + (Number(b.diffNumber) || 0);
     } else { av = Number(a.ranking) || 0; bv = Number(b.ranking) || 0; }
     if (typeof av === "string") return av.localeCompare(bv, undefined, {numeric:true}) * direction;
     return (av - bv) * direction;
@@ -107,20 +117,20 @@ function sortLevels(list) {
 }
 function renderLevels() {
   const query = ($("#searchInput")?.value || "").trim().toLowerCase();
-  const selectedDifficulty = $("#difficultyFilter")?.value || "all";
+  const selectedRating = $("#ratingFilter")?.value || "all";
   const showCensored = $("#showCensored")?.checked ?? false;
   const showStellaria = $("#showStellaria")?.checked ?? true;
   const showCosmos = $("#showCosmos")?.checked ?? true;
   const showNs = $("#showNs")?.checked ?? true;
 
   const filtered = levels.filter(level => {
-    const haystack = [level.id,level.title,level.composer,level.creator].join(" ").toLowerCase();
+    const haystack = [level.id,level.title,level.composer,level.creator,level.team].join(" ").toLowerCase();
     if (query && !haystack.includes(query)) return false;
     if (level.difficulty === "censored" && !showCensored) return false;
-    if (selectedDifficulty !== "all" && level.difficulty !== selectedDifficulty) return false;
+    if (selectedRating !== "all" && level.rating !== selectedRating) return false;
     if (level.difficulty === "stellaria" && !showStellaria) return false;
     if (["cosmos","cosmos+"].includes(level.difficulty) && !showCosmos) return false;
-    if (level.difficulty === "nscosmos" && !showNs) return false;
+
     return true;
   });
   const sorted = sortLevels(filtered);
@@ -140,15 +150,15 @@ function renderLevels() {
     return `<a class="level-row" href="#level/${encodeURIComponent(level.id)}">
       <div class="rank">#${escapeHTML(level.ranking)}${accuracyMark(level.rankingAccuracy)}</div>
       <div class="diff-cell"><span class="difficulty-badge ${difficultyClass(diff)}">${escapeHTML(difficultyLabel(diff))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(num))}</span></div>
-      <div class="level-title"><small>ID: ${escapeHTML(level.id)} - ${escapeHTML(level.composer)}</small>${escapeHTML(level.title)}</div>
-      <img class="rating-icon" src="${ratingImage(level.rating)}" alt="${escapeHTML(level.rating)}" title="${escapeHTML(level.rating)}">
-      <div class="creator">${escapeHTML(level.creator)}</div>
+      <div class="level-title"><small>ID: ${escapeHTML(level.id)}</small><span class="level-composer">${escapeHTML(level.composer)} - </span>${escapeHTML(level.title)}${(level.length || level.bpm) ? `<small class="level-meta">${level.length ? `Length: ${escapeHTML(level.length)}` : ""}${level.length && level.bpm ? " · " : ""}${level.bpm ? `BPM: ${escapeHTML(level.bpm)}` : ""}</small>` : ""}</div>
+      <img class="rating-icon" src="${ratingImage(level.rating)}" alt="${ratingLabel(level.rating)}" title="${ratingLabel(level.rating)}">
+      <div class="creator">${escapeHTML(level.team || level.creator || "")}</div>
       <div class="level-links">${links}</div>
     </a>`;
   }).join("");
 }
 function renderNumberGuide() {
-  const values = ["1","2","3","4","5","6","7","8","9","10","11","ns10"];
+  const values = ["1","2","3","4","5","6","7","8","9","10","11"];
   $("#numberDifficultyGuide").innerHTML = values.map(value => {
     const [color,stroke] = numberColors[value];
     return `<span class="number-chip" style="background:${color};color:${color};-webkit-text-stroke-color:${stroke}">${numericLabel(value)}</span>`;
@@ -178,7 +188,7 @@ function renderDetail(id) {
   const detail = [
     ["rank",`#${level.ranking} (${level.rankingAccuracy || "—"})`],
     ["difficulty",`${difficultyLabel(level.difficulty)} / ${numericLabel(level.diffNumber)}`],
-    ["levelId",level.id],["composer",level.composer],["creator",level.creator],["rating",level.rating]
+    ["levelId",level.id],["composer",level.composer],...(level.team ? [["team",level.team]] : []),["creator",level.creator],["rating",ratingLabel(level.rating)],...(level.length ? [["length",level.length]] : []),...(level.bpm ? [["bpm",level.bpm]] : [])
   ];
   const youtubeId = getYouTubeVideoId(level.youtube);
   const videoEmbed = youtubeId ? `<div class="video-embed"><iframe
@@ -196,11 +206,11 @@ function renderDetail(id) {
     ${videoEmbed}
     <div class="detail-grid">${detail.map(([key,value]) => `<div class="detail-item"><span>${t(key)}</span><strong>${escapeHTML(value ?? "—")}</strong></div>`).join("")}</div>
     <div class="detail-links">
-      ${level.youtube ? `<a href="${escapeHTML(level.youtube)}" target="_blank" rel="noopener">YouTube ↗</a>` : ""}
-      ${level.cosmopedia ? `<a href="${escapeHTML(level.cosmopedia)}" target="_blank" rel="noopener">Cosmopedia ↗</a>` : ""}
-      ${level.googleDrive ? `<a href="${escapeHTML(level.googleDrive)}" target="_blank" rel="noopener">Google Drive ↗</a>` : ""}
-      ${level.tuf ? `<a href="${escapeHTML(level.tuf)}" target="_blank" rel="noopener">TUF ↗</a>` : ""}
-      ${level.steam ? `<a href="${escapeHTML(level.steam)}" target="_blank" rel="noopener">Steam ↗</a>` : ""}
+      ${externalLink(level.youtube,"YouTube",levelLinkIcon("icon/youtube.png","YouTube"))}
+      ${externalLink(level.cosmopedia,"Cosmopedia",levelLinkIcon("icon/cosmopedia.png","Cosmopedia"))}
+      ${externalLink(level.googleDrive,"Google Drive",levelLinkIcon("icon/google-drive.png","Google Drive"))}
+      ${externalLink(level.tuf,"TUF",levelLinkIcon("icon/tuf.png","TUF"))}
+      ${externalLink(level.steam,"Steam",levelLinkIcon("icon/steam.png","Steam"))}
     </div>
   </article>`;
 }
@@ -227,7 +237,7 @@ async function loadLevels() {
   }
   renderLevels();
 }
-document.querySelectorAll("#searchInput,#sortBy,#sortOrder,#difficultyFilter,#showCensored,#showStellaria,#showCosmos,#showNs")
+document.querySelectorAll("#searchInput,#sortBy,#sortOrder,#ratingFilter,#showCensored,#showStellaria,#showCosmos,#showNs")
   .forEach(control => control.addEventListener(control.type === "search" ? "input" : "change", renderLevels));
 $("#languageSelect").value = currentLang;
 $("#languageSelect").addEventListener("change", event => setLanguage(event.target.value));
