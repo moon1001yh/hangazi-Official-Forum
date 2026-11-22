@@ -151,7 +151,7 @@ function renderLevels() {
     return `<a class="level-row" href="#level/${encodeURIComponent(level.id)}">
       <div class="rank">#${escapeHTML(level.ranking)}${accuracyMark(level.rankingAccuracy)}</div>
       <div class="diff-cell"><span class="difficulty-badge ${difficultyClass(diff)}">${escapeHTML(difficultyLabel(diff))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(num))}</span></div>
-      <div class="level-title"><small>ID: ${escapeHTML(level.id)}</small><span class="level-composer">${escapeHTML(level.composer)} - </span>${escapeHTML(level.title)}${(level.length || level.bpm) ? `<small class="level-meta">${level.length ? `Length: ${escapeHTML(level.length)}` : ""}${level.length && level.bpm ? " · " : ""}${level.bpm ? `BPM: ${escapeHTML(level.bpm)}` : ""}</small>` : ""}</div>
+      <div class="level-title"><small>ID: ${escapeHTML(level.id)}</small><span class="level-composer">${escapeHTML(level.composer)} - </span>${escapeHTML(level.title)}${(level.length || level.bpm) ? `<small class="level-meta">${level.length ? `"length": ${escapeHTML(level.length)}` : ""}${level.length && level.bpm ? " · " : ""}${level.bpm ? `BPM: ${escapeHTML(level.bpm)}` : ""}</small>` : ""}</div>
       <img class="rating-icon" src="${ratingImage(level.rating)}" alt="${ratingLabel(level.rating)}" title="${ratingLabel(level.rating)}">
       <div class="creator">${escapeHTML(level.team || level.creator || "")}</div>
       <div class="level-links">${links}</div>
