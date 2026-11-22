@@ -319,7 +319,7 @@
     "difficulty": "cosmos",
     "diffNumber": "10",
     "ranking": "7",
-    "rankingAccuracy": "fixed",
+    "rankingAccuracy": "unfixed",
     "title": "orphᴉc (playable ver)",
     "composer": "roər",
     "rating": "normal",
