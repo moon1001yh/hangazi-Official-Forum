@@ -160,11 +160,32 @@ function renderLevels() {
   }).join("");
 }
 function renderNumberGuide() {
-  const values = ["1","2","3","4","5","6","7","8","9","10","11"];
-  $("#numberDifficultyGuide").innerHTML = values.map(value => {
-    const [color,stroke] = numberColors[value];
-    return `<span class="number-chip" style="background:${color};color:${color};-webkit-text-stroke-color:${stroke}">${numericLabel(value)}</span>`;
+  const referenceLevels = [
+    ["1", "Extinction", "18"],
+    ["2", "My Piano Is Escaping!", "75"],
+    ["3", "Little, Love, Lit", "219"],
+    ["4", "Aquaaura", "208"],
+    ["5", "Icyxis", "129"],
+    ["6", "TremENDouS", "102"],
+    ["7", "Fallen Symphony", "115"],
+    ["8", "TremENDouS 『TheEND』", "160"],
+    ["9", "swallow SMOKE", "232"],
+    ["10", "ΩΩPARTS 『101%pure』", "279"]
+  ];
+  const difficultyCells = referenceLevels.map(([number]) => {
+    const [color, stroke] = numberColors[number];
+    return `<th scope="col"><span class="number-chip" style="background:${color};color:${color};-webkit-text-stroke-color:${stroke}">${number}</span></th>`;
   }).join("");
+  const levelCells = referenceLevels.map(([, title, id]) =>
+    `<td><a class="reference-level-link" href="#level/${encodeURIComponent(id)}">${escapeHTML(title)}</a></td>`
+  ).join("");
+  $("#numberDifficultyGuide").innerHTML = `
+    <table class="number-difficulty-table">
+      <tbody>
+        <tr><th scope="row" class="guide-row-label">${currentLang === "ko" ? "난이도" : "Difficulty"}</th>${difficultyCells}</tr>
+        <tr><th scope="row" class="guide-row-label">${currentLang === "ko" ? "기준 레벨" : "Reference level"}</th>${levelCells}</tr>
+      </tbody>
+    </table>`;
 }
 function getYouTubeVideoId(url) {
   if (!url) return "";
@@ -238,6 +259,7 @@ async function loadLevels() {
     $("#levelList").innerHTML = `<p class="empty-state">levelmetadata.json 파일을 불러오지 못했습니다.</p>`;
   }
   renderLevels();
+  renderRoute();
 }
 document.querySelectorAll("#searchInput,#sortBy,#sortOrder,#ratingFilter,#showCensored,#showStellaria,#showCosmos,#showCosmosplus")
   .forEach(control => control.addEventListener(control.type === "search" ? "input" : "change", renderLevels));
