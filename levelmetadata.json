@@ -402,6 +402,40 @@
     "bpm": "248-616"
   },
   {
+    "id": "195",
+    "difficulty": "cosmos+",
+    "diffNumber": "8",
+    "ranking": "32",
+    "rankingAccuracy": "fixed",
+    "title": "ΩΩPARTS 『100%pure』 (old)",
+    "composer": "かめりあ (Camellia)",
+    "rating": "normal",
+    "creator": "SSSangchu",
+    "youtube": "https://youtu.be/t16dPuQvFG0",
+    "tuf": "https://tuforums.com/levels/1536",
+    "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-5.1",
+    "release": "2023. 4. 22",
+    "length": "6:50",
+    "bpm": "120-230"
+  },
+  {
+    "id": "195",
+    "difficulty": "cosmos+",
+    "diffNumber": "8",
+    "ranking": "37",
+    "rankingAccuracy": "no",
+    "title": "ΩΩPARTS 『100%pure』 (renewal)",
+    "composer": "かめりあ (Camellia)",
+    "rating": "normal",
+    "creator": "SSSangchu",
+    "youtube": "https://youtu.be/5Y5H01S-bS8",
+    "tuf": "https://tuforums.com/levels/12549",
+    "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-5.1",
+    "release": "2023. 9. 21",
+    "length": "6:50",
+    "bpm": "120-230"
+  },
+  {
     "id": "197",
     "difficulty": "cosmos+",
     "diffNumber": "9",
@@ -474,6 +508,24 @@
     "bpm": "218-280"
   },
   {
+    "id": "202",
+    "difficulty": "cosmos",
+    "diffNumber": "6",
+    "ranking": "70",
+    "rankingAccuracy": "no",
+    "title": "ハドロンの波に乗って (Remake)",
+    "composer": "hugepulse",
+    "rating": "great",
+    "creator": "SSSangchu | 지네고, ChyaRyam, 오이, 천뭉, 마늘, SSSangchu, 유한",
+    "youtube": "https://youtu.be/07FASSdDRt4",
+    "googleDrive": "https://drive.google.com/file/d/1fXTq83PZThYx-Lq-Xf9W5MljC7Regdcx/view?usp=sharing",
+    "tuf": "https://tuforums.com/levels/1927",
+    "cosmopedia": "https://adofaiwiki.com/w/%E3%83%8F%E3%83%89%E3%83%AD%E3%83%B3%E3%81%AE%E6%B3%A2%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%A6/Epic%20Chart%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8",
+    "release": "2023. 6. 21",
+    "length": "2:35",
+    "bpm": "228"
+  },
+  {
     "id": "208",
     "difficulty": "stellaria",
     "diffNumber": "4",
@@ -528,6 +580,24 @@
     "bpm": "176"
   },
   {
+    "id": "228",
+    "difficulty": "cosmos",
+    "diffNumber": "7",
+    "ranking": "40",
+    "rankingAccuracy": "fixed",
+    "title": "Icyxis ~True Ending~",
+    "composer": "Raimukun",
+    "rating": "brilliant",
+    "creator": "SSSangchu | Han_rang, 송진우, 유한, 천뭉, 1329082, Vaccinium vitis-idaea L., 새제비",
+    "youtube": "https://youtu.be/-OudqgrYokw",
+    "googleDrive": "https://drive.google.com/file/d/17Sd9-WD9_hiftnIM5Amc34bPGO0lkbCM/view?usp=sharing",
+    "tuf": "https://tuforums.com/levels/2856",
+    "cosmopedia": "https://adofaiwiki.com/w/Icyxis%20~True%20Ending~/Epic%20Chart%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8",
+    "release": "2023. 11. 26",
+    "length": "4:28",
+    "bpm": "222"
+  },
+  {
     "id": "231",
     "difficulty": "stellaria",
     "diffNumber": "3",
@@ -561,6 +631,24 @@
     "release": "2024. 1. 4",
     "length": "2:14",
     "bpm": "234.375"
+  },
+  {
+    "id": "234",
+    "difficulty": "stellaria",
+    "diffNumber": "2",
+    "ranking": "223",
+    "rankingAccuracy": "no",
+    "title": "Hyacinth",
+    "composer": "GMDrocket",
+    "rating": "great",
+    "creator": "SarouA",
+    "youtube": "https://youtu.be/SEDLg_o83fQ",
+    "googleDrive": "https://drive.google.com/file/d/1XlQHRjszGoIST7jir_gYIfWF-NJSvxXc/view?usp=sharing",
+    "tuf": "https://tuforums.com/levels/3360",
+    "cosmopedia": "https://adofaiwiki.com/w/Hyacinth/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8"
+    "release": "2024. 1. 7",
+    "length": "2:06",
+    "bpm": "150"
   },
   {
     "id": "248",
