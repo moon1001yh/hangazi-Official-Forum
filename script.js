@@ -125,7 +125,7 @@ function renderLevels() {
   const showCosmosplus = $("#showCosmosplus")?.checked ?? true;
 
   const filtered = levels.filter(level => {
-    const haystack = [level.id,level.title,level.composer,level.creator,level.team].join(" ").toLowerCase();
+    const haystack = [level.id,level.title,level.composer,level.creator,level.team,...(Array.isArray(level.aliases) ? level.aliases : [])].join(" ").toLowerCase();
     if (query && !haystack.includes(query)) return false;
     if (level.difficulty === "censored" && !showCensored) return false;
     if (selectedRating !== "all" && level.rating !== selectedRating) return false;
