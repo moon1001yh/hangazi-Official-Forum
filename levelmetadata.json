@@ -12,7 +12,8 @@
     "youtube": "https://youtu.be/h6OjB500ZrI?t=661s",
     "release": "2020. 3. 25 이전",
     "length": "2:06",
-    "bpm": "195"
+    "bpm": "195",
+    "dlc": "X"
   },
   {
     "id": "1",
@@ -27,7 +28,8 @@
     "youtube": "https://youtu.be/h6OjB500ZrI&t=401s",
     "release": "2020. 3. 25 이전",
     "length": "4:12",
-    "bpm": "110"
+    "bpm": "110",
+    "dlc": "X"
   },
   {
     "id": "18",
@@ -43,7 +45,8 @@
     "tuf": "https://tuforums.com/levels/6456",
     "release": "2020. 6. 30",
     "length": "3:03",
-    "bpm": "145"
+    "bpm": "145",
+    "dlc": "X"
   },
   {
     "id": "28",
@@ -61,7 +64,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2233030148",
     "release": "2020. 9. 19",
     "length": "1:56",
-    "bpm": "175"
+    "bpm": "175",
+    "dlc": "X"
   },
   {
     "id": "61",
@@ -77,7 +81,8 @@
     "tuf": "https://tuforums.com/levels/691",
     "release": "2021. 5. 6",
     "length": "3:36",
-    "bpm": "195"
+    "bpm": "195",
+    "dlc": "X"
   },
   {
     "id": "64",
@@ -95,7 +100,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2379682342",
     "release": "2021. 5. 17",
     "length": "7:09",
-    "bpm": "242"
+    "bpm": "242",
+    "dlc": "X"
   },
   {
     "id": "75",
@@ -114,7 +120,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2536954608",
     "release": "2022. 7. 4",
     "length": "2:23",
-    "bpm": "170"
+    "bpm": "170",
+    "dlc": "X"
   },
   {
     "id": "78",
@@ -132,7 +139,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/KillerToy/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2021. 7. 11",
     "length": "4:37",
-    "bpm": "170"
+    "bpm": "170",
+    "dlc": "X"
   },
   {
     "id": "79",
@@ -148,7 +156,8 @@
     "tuf": "https://tuforums.com/levels/6466",
     "release": "2021. 7. 16",
     "length": "4:31",
-    "bpm": "230"
+    "bpm": "230",
+    "dlc": "X"
   },
   {
     "id": "86",
@@ -165,7 +174,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2592358035",
     "release": "2021. 9. 3",
     "length": "5:25",
-    "bpm": "128-160"
+    "bpm": "128-160",
+    "dlc": "X"
   },
   {
     "id": "87",
@@ -183,7 +193,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/beepbit%20%E2%81%82%20futures/%ED%95%9C%EA%B0%80%EC%A7%80,%20PLORALD%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2021. 9. 19",
     "length": "3:19",
-    "bpm": "250"
+    "bpm": "250",
+    "dlc": "X"
   },
   {
     "id": "87.1",
@@ -201,7 +212,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/beepbit%20%E2%81%82%20futures/%ED%95%9C%EA%B0%80%EC%A7%80,%20PLORALD%EC%9D%98%20%EB%A0%88%EB%B2%A8/Nerfed",
     "release": "2022. 4. 28",
     "length": "3:19",
-    "bpm": "250"
+    "bpm": "250",
+    "dlc": "X"
   },
   {
     "id": "89",
@@ -218,7 +230,8 @@
     "tuf": "https://tuforums.com/levels/147",
     "release": "2021. 10. 5",
     "length": "1:55",
-    "bpm": "285"
+    "bpm": "285",
+    "dlc": "X"
   },
   {
     "id": "92",
@@ -233,7 +246,8 @@
     "youtube": "https://youtu.be/xJ5Nvj7T1lw",
     "release": "2021. 11. 3",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "X"
   },
   {
     "id": "92.1",
@@ -251,7 +265,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 2. 15",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "X"
   },
   {
     "id": "93",
@@ -267,7 +282,8 @@
     "tuf": "https://tuforums.com/levels/669",
     "release": "2021. 11. 21",
     "length": "3:07",
-    "bpm": "210"
+    "bpm": "210",
+    "dlc": "X"
   },
   {
     "id": "102",
@@ -285,7 +301,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/TremENDouS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 1. 11",
     "length": "7:25",
-    "bpm": "120-285"
+    "bpm": "120-285",
+    "dlc": "X"
   },
   {
     "id": "103",
@@ -302,7 +319,8 @@
     "cosmopedia": "https://adofaiwiki.com/edit/Orthoplexed#s-2.1",
     "release": "2022. 1. 12",
     "length": "2:12",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "111",
@@ -319,7 +337,8 @@
     "tuf": "https://tuforums.com/levels/559",
     "release": "2022. 2. 6",
     "length": "3:03",
-    "bpm": "234"
+    "bpm": "234",
+    "dlc": "X"
   },
   {
     "id": "113",
@@ -337,7 +356,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E3%83%9E%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%AE%E5%A4%A7%E5%9C%B0%E3%82%92%E9%A7%86%E3%81%91%E3%81%A6/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 2. 7",
     "length": "2:58",
-    "bpm": "171"
+    "bpm": "171",
+    "dlc": "X"
   },
   {
     "id": "113.1",
@@ -354,7 +374,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E3%83%9E%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%AE%E5%A4%A7%E5%9C%B0%E3%82%92%E9%A7%86%E3%81%91%E3%81%A6/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.1",
     "release": "2022. 2. 7",
     "length": "2:58",
-    "bpm": "171"
+    "bpm": "171",
+    "dlc": "X"
   },
   {
     "id": "113.2",
@@ -371,7 +392,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E3%83%9E%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%AE%E5%A4%A7%E5%9C%B0%E3%82%92%E9%A7%86%E3%81%91%E3%81%A6/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.2",
     "release": "2022. 10. 9",
     "length": "2:58",
-    "bpm": "171"
+    "bpm": "171",
+    "dlc": "X"
   },
   {
     "id": "115",
@@ -389,7 +411,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Falle%20Symphony/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 2. 11",
     "length": "9:27",
-    "bpm": "250"
+    "bpm": "250",
+    "dlc": "X"
   },
   {
     "id": "118",
@@ -406,7 +429,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Doppelganger/%ED%95%9C%EA%B0%80%EC%A7%80,%20%EC%A7%80%EB%84%A4%EA%B3%A0%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 2. 21",
     "length": "2:24",
-    "bpm": "280"
+    "bpm": "280",
+    "dlc": "X"
   },
   {
     "id": "120",
@@ -423,7 +447,8 @@
     "tuf": "https://tuforums.com/levels/627",
     "release": "2022. 3. 6",
     "length": "2:36",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "129",
@@ -441,7 +466,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Icyxis/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 4. 22",
     "length": "1:48",
-    "bpm": "222"
+    "bpm": "222",
+    "dlc": "X"
   },
   {
     "id": "130",
@@ -458,7 +484,8 @@
     "tuf": "https://tuforums.com/levels/223",
     "release": "2022. 4. 28",
     "length": "2:12",
-    "bpm": "155-347"
+    "bpm": "155-347",
+    "dlc": "X"
   },
   {
     "id": "132",
@@ -475,7 +502,8 @@
     "tuf": "https://tuforums.com/levels/170",
     "release": "2022. 5. 15",
     "length": "5:36",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "132.1",
@@ -491,7 +519,8 @@
     "tuf": "https://tuforums.com/levels/383",
     "release": "2022. 5. 23",
     "length": "5:36",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "134",
@@ -508,7 +537,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/of%20Ambrosia/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 6. 5",
     "length": "6:06",
-    "bpm":"113-311"
+    "bpm":"113-311",
+    "dlc": "O"
   },
   {
     "id": "135",
@@ -526,7 +556,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Cursed%20Metamorph/AeiL,%20%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 6. 12",
     "length": "4:44",
-    "bpm": "280"
+    "bpm": "280",
+    "dlc": "X"
   },
   {
     "id": "136",
@@ -543,7 +574,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/V0LKANIK%20ERUPXI0N/%ED%95%9C%EA%B0%80%EC%A7%80,%20Han_rang%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 6. 18",
     "length": "3:36",
-    "bpm": "350"
+    "bpm": "350",
+    "dlc": "X"
   },
   {
     "id": "139",
@@ -560,7 +592,8 @@
     "tuf": "https://tuforums.com/levels/257",
     "release": "2022. 6. 25",
     "length": "4:09",
-    "bpm": "180-220"
+    "bpm": "180-220",
+    "dlc": "X"
   },
   {
     "id": "140",
@@ -578,7 +611,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Doppelganger/%ED%95%9C%EA%B0%80%EC%A7%80,%20%EC%A7%80%EB%84%A4%EA%B3%A0%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 7. 6",
     "length": "2:24",
-    "bpm": "280"
+    "bpm": "280",
+    "dlc": "X"
   },
   {
     "id": "142",
@@ -595,7 +629,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/cryptic%20worthy%20widgEt/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 7. 27",
     "length": "4:19",
-    "bpm": "256"
+    "bpm": "256",
+    "dlc": "X"
   },
   {
     "id": "144",
@@ -615,7 +650,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2899389533",
     "release": "2022. 7. 29",
     "length": "7:15",
-    "bpm": "115-230"
+    "bpm": "115-230",
+    "dlc": "O"
   },
   {
     "id": "153",
@@ -633,7 +669,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Nyarlathotep's%20Dreamland/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 9. 12",
     "length": "2:31",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "155",
@@ -651,7 +688,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/[ns]/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 9. 24",
     "length": "4:48",
-    "bpm": "266"
+    "bpm": "266",
+    "dlc": "X"
   },
   {
     "id": "160",
@@ -668,7 +706,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/TremENDouS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8/TheEND",
     "release": "2022. 10. 26",
     "length": "7:25",
-    "bpm": "120-285"
+    "bpm": "120-285",
+    "dlc": "X"
   },
   {
     "id": "163",
@@ -683,7 +722,8 @@
     "youtube": "https://youtu.be/G-VwSgN98UQ",
     "release": "2022. 11. 27",
     "length": "2:07",
-    "bpm": "263-271"
+    "bpm": "263-271",
+    "dlc": "O"
   },
   {
     "id": "163.1",
@@ -700,7 +740,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Quad%20Erat%20Demonstrandum/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.1",
     "release": "2022. 11. 28",
     "length": "2:07",
-    "bpm": "263-271"
+    "bpm": "263-271",
+    "dlc": "O"
   },
   {
     "id": "163.2",
@@ -718,7 +759,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Quad%20Erat%20Demonstrandum/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2022. 12. 4",
     "length": "2:07",
-    "bpm": "263-271"
+    "bpm": "263-271",
+    "dlc": "O"
   },
   {
     "id": "163.3",
@@ -736,7 +778,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Quad%20Erat%20Demonstrandum/QED%20Collab%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 4. 30",
     "length": "2:07",
-    "bpm": "263-271"
+    "bpm": "263-271",
+    "dlc": "O"
   },
   {
     "id": "166",
@@ -753,7 +796,8 @@
     "tuf": "https://tuforums.com/levels/400",
     "release": "2022. 12. 15",
     "length": "2:24",
-    "bpm": "290"
+    "bpm": "290",
+    "dlc": "X"
   },
   {
     "id": "168",
@@ -770,7 +814,8 @@
     "tuf": "https://tuforums.com/levels/1019",
     "release": "2022. 12. 18",
     "length": "2:58",
-    "bpm": "234"
+    "bpm": "234",
+    "dlc": "X"
   },
   {
     "id": "169",
@@ -787,7 +832,8 @@
     "tuf": "https://tuforums.com/levels/422",
     "release": "2022. 12. 21",
     "length": "2:02",
-    "bpm": "578"
+    "bpm": "578",
+    "dlc": "X"
   },
   {
     "id": "172",
@@ -805,7 +851,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E5%A4%A7%E5%9C%B0%E3%81%AE%E9%96%BE%E3%82%92%E6%8E%A2%E3%81%97%E3%81%A6/%ED%95%9C%EA%B0%80%EC%A7%80%20%EC%99%B8%208%EC%9D%B8%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 1. 1",
     "length": "8:27",
-    "bpm": "174"
+    "bpm": "174",
+    "dlc": "X"
   },
   {
     "id": "173",
@@ -824,7 +871,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Frums%20Supermix/Team%20Omega%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 5. 20",
     "length": "10:20",
-    "bpm": " "
+    "bpm": " ",
+    "dlc": "O"
   },
   {
     "id": "175",
@@ -841,7 +889,8 @@
     "tuf": "https://tuforums.com/levels/1346",
     "release": "2023. 1. 21",
     "length": "5:22",
-    "bpm": "256"
+    "bpm": "256",
+    "dlc": "O"
   },
   {
     "id": "176",
@@ -858,7 +907,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/The%20Yandere's%20Puppet%20Show/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 1. 23",
     "length": "5:22",
-    "bpm": "256"
+    "bpm": "256",
+    "dlc": "O"
   },
   {
     "id": "176.1",
@@ -876,7 +926,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/The%20Yandere's%20Puppet%20Show/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2025. 5. 24",
     "length": "5:22",
-    "bpm": "256"
+    "bpm": "256",
+    "dlc": "O"
   },
   {
     "id": "176.11",
@@ -894,7 +945,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/The%20Yandere's%20Puppet%20Show/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2025. 5. 24",
     "length": "5:22",
-    "bpm": "256"
+    "bpm": "256",
+    "dlc": "O"
   },
   {
     "id": "177",
@@ -914,7 +966,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=2924697157",
     "release": "2023. 1. 28",
     "length": "11:37",
-    "bpm": "160-180"
+    "bpm": "160-180",
+    "dlc": "O"
   },
   {
     "id": "183",
@@ -930,7 +983,8 @@
     "tuf": "https://tuforums.com/levels/929",
     "release": "2023. 2. 11",
     "length": "2:32",
-    "bpm": "300"
+    "bpm": "300",
+    "dlc": "X"
   },
   {
     "id": "184",
@@ -950,7 +1004,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=3023693525",
     "release": "2023. 2. 16",
     "length": "5:46",
-    "bpm": "150-290"
+    "bpm": "150-290",
+    "dlc": "X"
   },
   {
     "id": "189",
@@ -969,7 +1024,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Terminus%20Of%20The%20Eternity/%EA%B5%A5%EC%9A%B7%20%EC%99%B8%205%EC%9D%B8%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 4. 1",
     "length": "6:34",
-    "bpm": "205"
+    "bpm": "205",
+    "dlc": "O"
   },
   {
     "id": "190",
@@ -1007,7 +1063,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/The%20Most%20Durable%20Electronic%20Machine%20Whose%20Name%20Is%20%22IDPLMA%22%20Has%20Been%20Released%20By%20Mechanical%20Engineers%20in%20Washington%20D.C./Epic%20Chart%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8/nerfed",
     "release": "2023. 4. 9",
     "length": "14:13",
-    "bpm": "248-616"
+    "bpm": "248-616",
+    "dlc": "X"
   },
   {
     "id": "193",
@@ -1025,7 +1082,9 @@
     "cosmopedia": "https://adofaiwiki.com/w/Annihilation%20in%20F%23%20Minor/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 4. 16",
     "length": "2:44",
-    "bpm": "225"
+    "bpm": "225",
+    "dlc": "X",
+    "ys": "O (Google Drive version)"
   },
   {
     "id": "194",
@@ -1043,7 +1102,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Fractured%20Angel/Team%20%EC%97%94%EC%9E%B4%EC%95%84%EB%8B%8C%EC%95%85%EB%A7%88%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 4. 26",
     "length": "5:12",
-    "bpm": "301"
+    "bpm": "301",
+    "dlc": "X"
   },
   {
     "id": "195",
@@ -1060,7 +1120,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-5.1",
     "release": "2023. 4. 22",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "X"
   },
   {
     "id": "195.1",
@@ -1077,7 +1138,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-5.1",
     "release": "2023. 9. 21",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "X"
   },
   {
     "id": "197",
@@ -1095,7 +1157,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Little%20Rabbit%20and%20Deliverance/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 5. 13",
     "length": "3:15",
-    "bpm": "218-280"
+    "bpm": "218-280",
+    "dlc": "O"
   },
   {
     "id": "197.01",
@@ -1113,7 +1176,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Little%20Rabbit%20and%20Deliverance/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 5. 13",
     "length": "3:15",
-    "bpm": "218-280"
+    "bpm": "218-280",
+    "dlc": "O"
   },
   {
     "id": "197.1",
@@ -1131,7 +1195,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Little%20Rabbit%20and%20Deliverance/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4",
     "release": "2024. 9. 7",
     "length": "3:15",
-    "bpm": "218-280"
+    "bpm": "218-280",
+    "dlc": "O"
   },
   {
     "id": "197.11",
@@ -1149,7 +1214,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Little%20Rabbit%20and%20Deliverance/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4",
     "release": "2024. 9. 7",
     "length": "3:15",
-    "bpm": "218-280"
+    "bpm": "218-280",
+    "dlc": "O"
   },
   {
     "id": "198",
@@ -1168,7 +1234,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Camellia%20Supermix%20II/%EC%9D%B4%EB%A6%B0%20%EC%99%B8%2016%EC%9D%B8%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 5. 20",
     "length": "9:19",
-    "bpm": "150-2021"
+    "bpm": "150-2021",
+    "dlc": "O"
   },
   {
     "id": "199",
@@ -1186,7 +1253,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Eternal%20Subconscienc%C6%8E/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 6. 1",
     "length": "5:54",
-    "bpm": "330"
+    "bpm": "330",
+    "dlc": "O"
   },
   {
     "id": "199.1",
@@ -1204,7 +1272,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Eternal%20Subconscienc%C6%8E/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.1",
     "release": "2023. 10. 6",
     "length": "5:54",
-    "bpm": "330"
+    "bpm": "330",
+    "dlc": "O"
   },
   {
     "id": "202",
@@ -1223,7 +1292,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E3%83%8F%E3%83%89%E3%83%AD%E3%83%B3%E3%81%AE%E6%B3%A2%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%A6/Epic%20Chart%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 6. 21",
     "length": "2:35",
-    "bpm": "228"
+    "bpm": "228",
+    "dlc": "X"
   },
   {
     "id": "205",
@@ -1242,7 +1312,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/:%CE%B1:/Team%20Eyuns%EC%9D%98%20%EB%A0%88%EB%B2%A8/Key%20Limit",
     "release": "2023. 7. 18",
     "length": "3:41",
-    "bpm": "522"
+    "bpm": "522",
+    "dlc": "X"
   },
   {
     "id": "205.1",
@@ -1259,7 +1330,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/:%CE%B1:/Team%20Eyuns%EC%9D%98%20%EB%A0%88%EB%B2%A8/Key%20Limit",
     "release": "2023. 7. 18",
     "length": "3:41",
-    "bpm": "522"
+    "bpm": "522",
+    "dlc": "X"
   },
   {
     "id": "208",
@@ -1277,7 +1349,9 @@
     "cosmopedia": "https://adofaiwiki.com/w/Aquaaura/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 8. 20",
     "length": "3:54",
-    "bpm": "190"
+    "bpm": "190",
+    "dlc": "X",
+    "ys": "O (Google Drive version)"
   },
   {
     "id": "210",
@@ -1294,7 +1368,8 @@
     "tuf": "https://tuforums.com/levels/2515",
     "release": "2023. 9. 1",
     "length": "7:21",
-    "bpm": "230"
+    "bpm": "230",
+    "dlc": "O"
   },
   {
     "id": "213",
@@ -1310,7 +1385,8 @@
     "tuf": "https://tuforums.com/levels/5969",
     "release": "2023. 9. 15",
     "length": "3:24",
-    "bpm": "200-500"
+    "bpm": "200-500",
+    "dlc": "O"
   },
   {
     "id": "214",
@@ -1328,7 +1404,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Parallel%20Universe%20Shifter/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 9. 20",
     "length": "7:03",
-    "bpm": "100-440"
+    "bpm": "100-440",
+    "dlc": "O"
   },
   {
     "id": "217",
@@ -1346,7 +1423,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/For%20Alic%C3%A9/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 9. 30",
     "length": "2:26",
-    "bpm": "100-250"
+    "bpm": "100-250",
+    "dlc": "O"
   },
   {
     "id": "219",
@@ -1364,7 +1442,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Little,%20Love,%20Lit/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 10. 3",
     "length": "2:25",
-    "bpm": "176"
+    "bpm": "176",
+    "dlc": "X"
   },
   {
     "id": "225",
@@ -1381,7 +1460,8 @@
     "tuf": "https://tuforums.com/levels/2731",
     "release": "2023. 11. 5",
     "length": "2:09",
-    "bpm": "129"
+    "bpm": "129",
+    "dlc": "X"
   },
   {
     "id": "228",
@@ -1400,7 +1480,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Icyxis%20~True%20Ending~/Epic%20Chart%20Team%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2023. 11. 26",
     "length": "4:28",
-    "bpm": "222"
+    "bpm": "222",
+    "dlc": "O"
   },
   {
     "id": "231",
@@ -1417,7 +1498,8 @@
     "tuf": "https://tuforums.com/levels/6480",
     "release": "2023. 12. 23",
     "length": "2:25",
-    "bpm": "195"
+    "bpm": "195",
+    "dlc": "X"
   },
   {
     "id": "232",
@@ -1435,7 +1517,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/swallow%20SMOKE/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 1. 4",
     "length": "2:14",
-    "bpm": "234.375"
+    "bpm": "234.375",
+    "dlc": "O"
   },
   {
     "id": "232.1",
@@ -1452,7 +1535,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/swallow%20SMOKE/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.1",
     "release": "2024. 1. 5",
     "length": "2:14",
-    "bpm": "234.375"
+    "bpm": "234.375",
+    "dlc": "O"
   },
   {
     "id": "234",
@@ -1470,7 +1554,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Hyacinth/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 1. 7",
     "length": "2:06",
-    "bpm": "150"
+    "bpm": "150",
+    "dlc": "X"
   },
   {
     "id": "235",
@@ -1488,7 +1573,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/BR34K1N6%20UR%20F1N63RZ%204NY%20%25%20Rec/%EC%9D%91%EC%95%A0%20%EC%99%B8%203%EC%9D%B8%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 1. 7",
     "length": "3:20",
-    "bpm": "198.414-235"
+    "bpm": "198.414-235",
+    "dlc": "O"
   },
   {
     "id": "237",
@@ -1506,7 +1592,8 @@
     "tuf": "https://tuforums.com/levels/3436",
     "release": "2024. 1. 12",
     "length": "2:26",
-    "bpm": "100-400"
+    "bpm": "100-400",
+    "dlc": "X"
   },
   {
     "id": "240",
@@ -1524,7 +1611,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/trokreskita%20%C4%9Dardeno/%ED%95%9C%EA%B0%80%EC%A7%80,%20yoonsu%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 1. 20",
     "length": "5:55",
-    "bpm": "147-270"
+    "bpm": "147-270",
+    "dlc": "O"
   },
   {
     "id": "242",
@@ -1544,7 +1632,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=3377105180",
     "release": "2024. 1. 28",
     "length": "3:37",
-    "bpm": "200"
+    "bpm": "200",
+    "dlc": "X"
   },
   {
     "id": "243",
@@ -1564,7 +1653,8 @@
     "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=3383921947",
     "release": "2024. 3. 6",
     "length": "7:19",
-    "bpm": "150-320"
+    "bpm": "150-320",
+    "dlc": "X"
   },
   {
     "id": "247",
@@ -1583,7 +1673,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Stained%20Satin/Team%20Podo%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 4. 30",
     "length": "2:30",
-    "bpm": "171"
+    "bpm": "171",
+    "dlc": "X"
   },
   {
     "id": "248",
@@ -1601,7 +1692,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/HALL/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 6. 17",
     "length": "6:10",
-    "bpm": "66-320"
+    "bpm": "66-320",
+    "dlc": "O"
   },
   {
     "id": "249",
@@ -1619,7 +1711,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/1KONOS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 6. 30",
     "length": "5:22",
-    "bpm": "150-220"
+    "bpm": "150-220",
+    "dlc": "O"
   },
   {
     "id": "249.1",
@@ -1637,7 +1730,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/1KONOS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 6. 30",
     "length": "5:22",
-    "bpm": "150-220"
+    "bpm": "150-220",
+    "dlc": "O"
   },
   {
     "id": "249.2",
@@ -1655,7 +1749,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/1KONOS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 6. 30",
     "length": "5:22",
-    "bpm": "150-220"
+    "bpm": "150-220",
+    "dlc": "O"
   },
   {
     "id": "252",
@@ -1673,7 +1768,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/One%20One#s-2.2",
     "release": "2024. 7. 20",
     "length": "3:05",
-    "bpm": "140.625-281.25"
+    "bpm": "140.625-281.25",
+    "dlc": "X"
   },
   {
     "id": "254",
@@ -1691,7 +1787,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/VOCAT1ON#s-2.1",
     "release": "2024. 9. 1",
     "length": "2:52",
-    "bpm": "403"
+    "bpm": "403",
+    "dlc": "O"
   },
   {
     "id": "256",
@@ -1709,14 +1806,15 @@
     "cosmopedia": "https://adofaiwiki.com/w/REX/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 11. 1",
     "length": "5:32",
-    "bpm": "120-240"
+    "bpm": "120-240",
+    "dlc": "O"
   },
   {
     "id": "258",
     "difficulty": "censored",
     "diffNumber": "10",
     "ranking": "7.1",
-    "rankingAccuracy": "fixed",
+    "rankingAccuracy": "unfixed",
     "title": "あかず",
     "composer": "かたぎり ft. 可不",
     "rating": "great",
@@ -1727,7 +1825,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/%E3%81%82%E3%81%8B%E3%81%9A/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2024. 12. 11",
     "length": "2:25",
-    "bpm": "217"
+    "bpm": "217",
+    "dlc": "X"
   },
   {
     "id": "260",
@@ -1745,7 +1844,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Hello%20(BPM)%202025/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2025. 2. 4",
     "length": "3:53",
-    "bpm": "2025"
+    "bpm": "2025",
+    "dlc": "O"
   },
   {
     "id": "260.1",
@@ -1763,7 +1863,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Hello%20(BPM)%202025/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2025. 2. 4",
     "length": "3:53",
-    "bpm": "2025"
+    "bpm": "2025",
+    "dlc": "O"
   },
   {
     "id": "262",
@@ -1779,7 +1880,8 @@
     "tuf": "https://tuforums.com/levels/8320",
     "release": "2025. 3. 22",
     "length": "2:33",
-    "bpm": "120"
+    "bpm": "120",
+    "dlc": "O"
   },
   {
     "id": "263",
@@ -1798,7 +1900,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/In%20a%20Country%20Where%20There%20Are%20Many%20Civil%20Wars,%20Coups%20Occur%20and%20the%20Country's%20Name%20Keeps%20Changing%20(Ionian,%20Dorian,%20Phrygian,%20Lydian,%20Mixolydian,%20Aeolian),%20Which%20Eventually%20Revolutionizes%20the%20Country%20and%20Makes%20It%20a%20Superpower!#s-2.2",
     "release": "2025. 4. 1",
     "length": "20:09",
-    "bpm": "325-624"
+    "bpm": "325-624",
+    "dlc": "X"
   },
   {
     "id": "264",
@@ -1816,7 +1919,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Sadalmelik/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#Basic",
     "release": "2025. 4. 12",
     "length": "1:58",
-    "bpm": "221"
+    "bpm": "221",
+    "dlc": "X"
   },
   {
     "id": "264.1",
@@ -1834,7 +1938,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Sadalmelik/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#Hard",
     "release": "2025. 4. 12",
     "length": "1:58",
-    "bpm": "221"
+    "bpm": "221",
+    "dlc": "X"
   },
   {
     "id": "264.2",
@@ -1852,7 +1957,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Sadalmelik/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#Extreme",
     "release": "2025. 4. 12",
     "length": "1:58",
-    "bpm": "221"
+    "bpm": "221",
+    "dlc": "X"
   },
   {
     "id": "264.3",
@@ -1870,7 +1976,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Sadalmelik/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#Vanilla",
     "release": "2025. 4. 12",
     "length": "1:58",
-    "bpm": "221"
+    "bpm": "221",
+    "dlc": "X"
   },
   {
     "id": "265",
@@ -1888,7 +1995,8 @@
     "tuf": "https://tuforums.com/levels/8598",
     "release": "2025. 4. 14",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "O"
   },
   {
     "id": "266",
@@ -1906,7 +2014,8 @@
     "tuf": "https://tuforums.com/levels/8597",
     "release": "2025. 4. 14",
     "length": "7:25",
-    "bpm": "120-285"
+    "bpm": "120-285",
+    "dlc": "O"
   },
   {
     "id": "267",
@@ -1924,7 +2033,8 @@
     "tuf": "https://tuforums.com/levels/8596",
     "release": "2025. 4. 14",
     "length": "7:09",
-    "bpm": "100-440"
+    "bpm": "100-440",
+    "dlc": "O"
   },
   {
     "id": "268",
@@ -1942,7 +2052,8 @@
     "tuf": "https://tuforums.com/levels/8593",
     "release": "2025. 4. 14",
     "length": "3:27",
-    "bpm": "215"
+    "bpm": "215",
+    "dlc": "O"
   },
   {
     "id": "269",
@@ -1960,7 +2071,8 @@
     "tuf": "https://tuforums.com/levels/8592",
     "release": "2025. 4. 14",
     "length": "7:25",
-    "bpm": "120-285"
+    "bpm": "120-285",
+    "dlc": "O"
   },
   {
     "id": "269.1",
@@ -1978,7 +2090,8 @@
     "tuf": "https://tuforums.com/levels/10644",
     "release": "2025. 9. 13",
     "length": "7:25",
-    "bpm": "120-285"
+    "bpm": "120-285",
+    "dlc": "O"
   },
   {
     "id": "270",
@@ -1996,7 +2109,8 @@
     "tuf": "https://tuforums.com/levels/8591",
     "release": "2025. 4. 14",
     "length": "7:20",
-    "bpm": "139-201"
+    "bpm": "139-201",
+    "dlc": "O"
   },
   {
     "id": "270.1",
@@ -2014,7 +2128,8 @@
     "tuf": "https://tuforums.com/levels/10646",
     "release": "2025. 9. 13",
     "length": "7:20",
-    "bpm": "139-201"
+    "bpm": "139-201",
+    "dlc": "O"
   },
   {
     "id": "271",
@@ -2032,7 +2147,8 @@
     "tuf": "https://tuforums.com/levels/8590",
     "release": "2025. 4. 14",
     "length": "5:32",
-    "bpm": "120-240"
+    "bpm": "120-240",
+    "dlc": "O"
   },
   {
     "id": "272",
@@ -2050,7 +2166,8 @@
     "tuf": "https://tuforums.com/levels/8589",
     "release": "2025. 4. 14",
     "length": "2:52",
-    "bpm": "234"
+    "bpm": "234",
+    "dlc": "O"
   },
   {
     "id": "272.1",
@@ -2068,7 +2185,8 @@
     "tuf": "https://tuforums.com/levels/10645",
     "release": "2025. 9. 13",
     "length": "2:52",
-    "bpm": "234"
+    "bpm": "234",
+    "dlc": "O"
   },
   {
     "id": "273",
@@ -2086,7 +2204,8 @@
     "tuf": "https://tuforums.com/levels/8603",
     "release": "2025. 4. 14",
     "length": "57:03",
-    "bpm": "100-440"
+    "bpm": "100-440",
+    "dlc": "O"
   },
   {
     "id": "274",
@@ -2104,7 +2223,8 @@
     "tuf": "https://tuforums.com/levels/10414",
     "release": "2025. 9. 8",
     "length": "2:15",
-    "bpm": "190"
+    "bpm": "190",
+    "dlc": "X"
   },
   {
     "id": "275",
@@ -2119,7 +2239,8 @@
     "youtube": "https://youtu.be/Vf_NCpe2nXc",
     "release": "2025. 9. 20",
     "length": "4:15",
-    "bpm": "195"
+    "bpm": "195",
+    "dlc": "X"
   },
   {
     "id": "276",
@@ -2136,7 +2257,8 @@
     "tuf": "https://tuforums.com/levels/8975",
     "release": "2025. 9. 20",
     "length": "5:19",
-    "bpm": "214"
+    "bpm": "214",
+    "dlc": "X"
   },
   {
     "id": "277",
@@ -2154,7 +2276,8 @@
     "tuf": "https://tuforums.com/levels/8595",
     "release": "2025. 4. 14",
     "length": "4:50",
-    "bpm": "265"
+    "bpm": "265",
+    "dlc": "O"
   },
   {
     "id": "278",
@@ -2172,7 +2295,8 @@
     "tuf": "https://tuforums.com/levels/8594",
     "release": "2025. 4. 14",
     "length": "6:22",
-    "bpm": "242"
+    "bpm": "242",
+    "dlc": "O"
   },
   {
     "id": "279",
@@ -2189,7 +2313,8 @@
     "tuf": "https://tuforums.com/levels/10851",
     "release": "2025. 10. 9",
     "length": "6:50",
-    "bpm": "120-230"
+    "bpm": "120-230",
+    "dlc": "X"
   },
   {
     "id": "280",
@@ -2207,7 +2332,8 @@
     "release": "2025. 10. 19",
     "length": "2:56",
     "bpm": "195",
-    "team": "Team Wild Hunt"
+    "team": "Team Wild Hunt",
+    "dlc": "O"
   },
   {
     "id": "281",
@@ -2225,7 +2351,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/[ns]/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8/cosmos",
     "release": "xxxx. xx. xx",
     "length": "4:48",
-    "bpm": "266"
+    "bpm": "266",
+    "dlc": "O"
   },
   {
     "id": "282",
@@ -2243,7 +2370,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/orph%E1%B4%89c#s-2.2",
     "release": "2026. 6. 14",
     "length": "2:03",
-    "bpm": "300"
+    "bpm": "300",
+    "dlc": "X"
   },
   {
     "id": "283",
@@ -2258,7 +2386,8 @@
     "youtube": "https://youtu.be/UcbIKfn7uJs",
     "release": "2026. 7. 7",
     "length": "55:19",
-    "bpm": " "
+    "bpm": " ",
+    "dlc": "O"
   },
   {
     "id": "284",
@@ -2273,7 +2402,8 @@
     "youtube": "https://youtu.be/S2OdIWFbOJs",
     "release": "2026. 8. 3",
     "length": "2:00",
-    "bpm": " "
+    "bpm": " ",
+    "dlc": "O"
   },
   {
     "id": "285",
@@ -2288,7 +2418,8 @@
     "youtube": "https://youtu.be/",
     "release": "xxxx. xx. xx",
     "length": "x:xx",
-    "bpm": "xxx"
+    "bpm": "xxx",
+    "dlc": "O"
   },
   {
     "id": "286",
@@ -2306,7 +2437,8 @@
     "cosmopedia": "https://adofaiwiki.com/w/Black%20Knife%20(nerdexample%20Remix)/%ED%95%9C%EA%B0%80%EC%A7%80,%20%EC%9D%B4%EB%A6%B0%EC%9D%98%20%EB%A0%88%EB%B2%A8",
     "release": "2026. 9. 27",
     "length": "1:57",
-    "bpm": "295"
+    "bpm": "295",
+    "dlc": "O"
   },
   {
     "id": "286.1",
@@ -2324,6 +2456,7 @@
     "cosmopedia": "https://adofaiwiki.com/w/Black%20Knife%20(nerdexample%20Remix)/%ED%95%9C%EA%B0%80%EC%A7%80,%20%EC%9D%B4%EB%A6%B0%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-4.1",
     "release": "2026. 9. 28",
     "length": "1:57",
-    "bpm": "295"
+    "bpm": "295",
+    "dlc": "O"
   }
 ]
