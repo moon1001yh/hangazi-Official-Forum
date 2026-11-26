@@ -209,7 +209,7 @@ function renderDetail(id) {
   if (!level) { target.innerHTML = `<div class="detail-card"><h1>${t("levelNotFound")}</h1><a class="back-link" href="#levels">${t("back")}</a></div>`; return; }
   const [color,stroke] = numberColors[String(level.diffNumber)] || ["#ebc1ff","#000"];
   const detail = [
-    ["rank",`#${level.ranking} (${accuracyMark(level.rankingAccuracy) || "—"})`],
+    ["rank",`#${level.ranking} (${level.rankingAccuracy || "—"})`],
     ["difficulty",`${difficultyLabel(level.difficulty)} / ${numericLabel(level.diffNumber)}`],
     ["levelId",level.id],["release",level.release],...(level.team ? [["team",level.team]] : []),["creator",level.creator],["rating",ratingLabel(level.rating)],...(level.length ? [["length",level.length]] : []),...(level.bpm ? [["bpm",level.bpm]] : []),...(level.dlc ? [["dlc",level.dlc]] : []),...(level.ys ? [["ys",level.ys]] : [])
   ];
