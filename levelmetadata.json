@@ -29,6 +29,9 @@
     "composer": "PIKASONIC",
     "rating": "normal",
     "creator": "상추융합체",
+    "aliases": [
+      "피카소닉"
+    ],
     "youtube": "https://youtu.be/h6OjB500ZrI&t=401s",
     "release": "2020. 3. 25 이전",
     "length": "4:12",
@@ -45,6 +48,10 @@
     "composer": "Riya",
     "rating": "great",
     "creator": "상추융합체",
+    "aliases": [
+      "리야",
+      "익스팅션"
+    ],
     "youtube": "https://youtu.be/woQtDf349Yg",
     "tuf": "https://tuforums.com/levels/6456",
     "release": "2020. 6. 30",
@@ -62,6 +69,10 @@
     "composer": "Riya",
     "rating": "brilliant",
     "creator": "상추융합체",
+    "aliases": [
+      "리야",
+      "인트루더"
+    ],
     "youtube": "https://youtu.be/yqPpBjNul7g",
     "tuf": "https://tuforums.com/levels/16131",
     "cosmopedia": "https://adofaiwiki.com/w/Intruder#s-2.2",
@@ -81,6 +92,10 @@
     "composer": "LEC",
     "rating": "normal",
     "creator": "상추융합체",
+    "aliases": [
+      "MrNick LEC",
+      "언타이틀드"
+    ],
     "youtube": "https://youtu.be/QgAsiWFRDGA",
     "tuf": "https://tuforums.com/levels/691",
     "release": "2021. 5. 6",
@@ -95,10 +110,14 @@
     "ranking": "70",
     "rankingAccuracy": "no",
     "title": "Qyoh (Nine Stars)",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "brilliant",
     "creator": "상추융합체, Xoqmfflt",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "쿄"
     ],
     "youtube": "https://youtu.be/lQr15bT2F2k",
@@ -121,6 +140,7 @@
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "플럼",
       "MPIE",
       "김피아노",
       "피아노 탈출"
@@ -142,10 +162,14 @@
     "ranking": "122",
     "rankingAccuracy": "no",
     "title": "KillerToy",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "킬러토이",
       "킬토",
       "킬러 토이",
@@ -167,10 +191,14 @@
     "ranking": "122",
     "rankingAccuracy": "no",
     "title": "GHOUL",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "normal",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "구울"
     ],
     "youtube": "https://youtu.be/UefbHFJOpA8",
@@ -187,13 +215,17 @@
     "ranking": "122",
     "rankingAccuracy": "no",
     "title": "We Could Get More Machinegun Psystyle! (And More Genre Switches) (More Difficulty +)",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "상추융합체 (Original by. Appeal)",
     "aliases": [
-      "머신건 익스",
-      "머신건 EX",
-      "Machinegun EX"
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "머신건",
+      "EX",
+      "익스"
     ],
     "youtube": "https://youtu.be/NkEFLXYhkB4",
     "tuf": "https://tuforums.com/levels/984",
@@ -214,6 +246,9 @@
     "rating": "brilliant",
     "creator": "상추융합체 | PLORALD",
     "aliases": [
+      "AAAA",
+      "아아아아",
+      "프럼즈",
       "빕비트",
       "언너프",
       "플로랄드"
@@ -238,6 +273,9 @@
     "rating": "brilliant",
     "creator": "상추융합체 | PLORALD",
     "aliases": [
+      "AAAA",
+      "아아아아",
+      "프럼즈",
       "빕비트",
       "너프",
       "플로랄드"
@@ -261,6 +299,10 @@
     "composer": "Frums",
     "rating": "normal",
     "creator": "상추융합체",
+    "aliases": [
+      "프럼즈",
+      "QDS"
+    ],
     "youtube": "https://youtu.be/VT1XDTpjcOU",
     "googleDrive": "https://drive.google.com/file/d/133jZ91wgk_gdAj80uNjbYQkgZmyrEzVj/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/147",
@@ -276,10 +318,14 @@
     "ranking": "41.3",
     "rankingAccuracy": "fixed",
     "title": "ΩΩPARTS",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "normal",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "옴옴파츠",
       "오파츠",
       "OOPARTS"
@@ -297,10 +343,14 @@
     "ranking": "43",
     "rankingAccuracy": "fixed",
     "title": "ΩΩPARTS (Fix)",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "옴옴파츠",
       "오파츠",
       "OOPARTS"
@@ -324,6 +374,9 @@
     "composer": "*レイナヒトミ",
     "rating": "normal",
     "creator": "상추융합체",
+    "aliases": [
+      "*reinahitomi"
+    ],
     "youtube": "https://youtu.be/7bYlH4LRi3E",
     "tuf": "https://tuforums.com/levels/669",
     "release": "2021. 11. 21",
@@ -338,10 +391,14 @@
     "ranking": "87",
     "rankingAccuracy": "ref",
     "title": "TremENDouS",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "트레멘더스",
       "트멘"
     ],
@@ -364,6 +421,9 @@
     "composer": "Frums",
     "rating": "great",
     "creator": "상추융합체",
+    "aliases": [
+      "프럼즈"
+    ],
     "youtube": "https://youtu.be/7uCXCklG3l0",
     "tuf": "https://tuforums.com/levels/1648",
     "cosmopedia": "https://adofaiwiki.com/edit/Orthoplexed#s-2.1",
@@ -379,13 +439,18 @@
     "ranking": "164",
     "rankingAccuracy": "no",
     "title": "M1LLI0N PP (Short) (Remake)",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "brilliant",
     "creator": "상추융합체",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "밀피피",
       "밀삐삐",
-      "밀리언 피피 삐삐",
+      "밀리언 피피",
+      "밀리언 삐삐",
       "MILLION PP",
       "MILL1ON M1LL1ON M1LLI0N MILL10N M1LL10N"
     ],
@@ -408,11 +473,14 @@
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "modama",
+      "휴지펄스",
       "마리큐르의 대지를 달려",
       "마리큐어의 대지를달려",
       "마리큘의 대지를 달려",
       "분자의 대지를 달려",
-      "바나나우유 바나나 우유",
+      "바나나우유",
+      "바나나 우유",
       "Running through the land of molecule",
       "Running through the land of maricure",
       "banana milk"
@@ -437,15 +505,19 @@
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
-      "마리큐르의 대지를 달려 너프",
-      "마리큐어의 대지를달려 너프",
-      "마리큘의 대지를 달려 너프",
-      "분자의 대지를 달려 너프",
-      "바나나우유 너프",
-      "바나나 우유 너프",
-      "Running through the land of molecule Nerfed",
-      "Running through the land of maricure Nerfed",
-      "banana milk nerfed"
+      "modama",
+      "휴지펄스",
+      "마리큐르의 대지를 달려",
+      "마리큐어의 대지를달려",
+      "마리큘의 대지를 달려",
+      "분자의 대지를 달려",
+      "바나나우유",
+      "바나나 우유",
+      "Running through the land of molecule",
+      "Running through the land of maricure",
+      "banana milk"
+      "너프",
+      "Nerfed"
     ],
     "youtube": "https://youtu.be/xGLvU80hA5U",
     "tuf": "https://tuforums.com/levels/276",
@@ -466,6 +538,8 @@
     "rating": "great",
     "creator": "SSSangchu",
     "aliases": [
+      "modama",
+      "휴지펄스",
       "마리큐르의 대지를 달려",
       "마리큐어의 대지를 달려",
       "마리큘의 대지를 달려",
@@ -496,6 +570,10 @@
     "rating": "great",
     "creator": "상추융합체",
     "aliases": [
+      "Lucidin",
+      "루디신",
+      "루시딘",
+      "루씨딘",
       "폴심",
       "폴른 심포니",
       "펄른 펄랜 펄렌",
@@ -522,6 +600,7 @@
     "rating": "normal",
     "creator": "SSSangchu, 지네고",
     "aliases": [
+      "리프",
       "도플갱어",
       "JNJ"
     ],
@@ -544,6 +623,8 @@
     "rating": "brilliant",
     "creator": "상추융합체",
     "aliases": [
+      "modama",
+      "휴지펄스",
       "please give me an eternal dream",
       "eien no yume wo kudasai",
       "이터널 드림",
@@ -568,6 +649,7 @@
     "rating": "great",
     "creator": "SSSangchu",
     "aliases": [
+      "라이무쿤",
       "아이시스"
     ],
     "youtube": "https://youtu.be/JQhzfsgs_YE",
@@ -590,8 +672,11 @@
     "rating": "great",
     "creator": "SSSangchu",
     "aliases": [
-      "그퓨헤 리메이크",
-      "그퓨해 리매이크",
+      "프럼즈",
+      "그퓨헤",
+      "그퓨해",
+      "리메이크",
+      "리매이크",
       "GFOH"
     ],
     "youtube": "https://youtu.be/bkE-cm4LINI",
@@ -636,8 +721,8 @@
     "creator": "SSSangchu",
     "aliases": [
       "갤콜",
+      "Galaxy Collapse",
       "너프",
-      "Galaxy Collapse"
     ],
     "youtube": "https://youtu.be/7h5i2t4Jv4s",
     "tuf": "https://tuforums.com/levels/383",
@@ -657,6 +742,7 @@
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
+      "프럼즈",
       "오브 암브로시아"
     ],
     "youtube": "https://youtu.be/bYSDWiLTLcY",
@@ -677,6 +763,13 @@
     "composer": "Sot-C",
     "rating": "great",
     "creator": "AeiL | SSSangchu",
+    "aliases": [
+      "Southern Cross",
+      "커스드 메타모프",
+      "매타모프",
+      "애일",
+      "에일"
+    ],
     "youtube": "https://youtu.be/nlsl55Q94GM",
     "googleDrive": "https://drive.google.com/file/d/1QisRiGkz19QeV9lVlLXl2L503Lf3-Pgy/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/47",
@@ -697,9 +790,12 @@
     "rating": "great",
     "creator": "SSSangchu | Han_rang",
     "aliases": [
+      "RKD",
       "VOLKANIC ERUPXION",
       "VOLCANIC ERUPTION",
-      "볼카닉"
+      "볼카닉",
+      "한랑",
+      "韓狼"
     ],
     "youtube": "https://youtu.be/YkQam9QVB8M",
     "tuf": "https://tuforums.com/levels/33",
@@ -719,6 +815,12 @@
     "composer": "Lesitia. Vs. MGG",
     "rating": "great",
     "creator": "SSSangchu",
+    "aliases": [
+      "레시티아",
+      "머글꺼",
+      "먹을거",
+      "라스트 메모리즈"
+    ],
     "youtube": "https://youtu.be/Gvw4O-2b4Gc",
     "googleDrive": "https://drive.google.com/file/d/19Bn7RwqlTWNwD0XxGzPXwgS12D27x3Jg/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/257",
@@ -738,7 +840,9 @@
     "rating": "great",
     "creator": "SSSangchu, 지네고",
     "aliases": [
-      "도플갱어 리메이크",
+      "리프",
+      "도플갱어",
+      "리메이크",
       "JNJ"
     ],
     "youtube": "https://youtu.be/hxMgKLm0F4w",
@@ -760,6 +864,10 @@
     "composer": "seatrus",
     "rating": "normal",
     "creator": "SSSangchu",
+    "aliases": [
+      "시트러스",
+      "씨트러스"
+    ],
     "youtube": "https://youtu.be/DAF7b1H_a-8",
     "tuf": "https://tuforums.com/levels/39",
     "cosmopedia": "https://adofaiwiki.com/w/cryptic%20worthy%20widgEt/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8",
@@ -782,7 +890,11 @@
     "aliases": [
       "WOTH",
       "마녀사냥",
-      "공허의 마녀"
+      "공허의 마녀",
+      "알파",
+      "Irin",
+      "Lemoni",
+      "레모니"
     ],
     "youtube": "https://youtu.be/rZeH-m8w5lE",
     "googleDrive": "https://drive.google.com/file/d/1PvfzpZYRCR9-LCp1R_bxZwsd8xtFZCfl/view?usp=sharing",
@@ -805,6 +917,7 @@
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
+      "라이무쿤",
       "니알라토텝",
       "드림랜드",
       "꿈나라"
@@ -825,10 +938,14 @@
     "ranking": "29",
     "rankingAccuracy": "fixed",
     "title": "[ns]",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "SSSangchu",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "엔에스",
       "앤애스",
       "앤에스",
@@ -850,10 +967,14 @@
     "ranking": "38",
     "rankingAccuracy": "ref",
     "title": "TremENDouS 『TheEND』",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
       "트레멘더스 디엔드",
       "트멘디엔드"
     ],
@@ -876,6 +997,7 @@
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
+      "타케히로테이",
       "QED",
       "Q.E.D.",
       "큐이디",
@@ -898,6 +1020,7 @@
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
+      "타케히로테이",
       "QED",
       "Q.E.D.",
       "큐이디",
@@ -922,10 +1045,13 @@
     "rating": "normal",
     "creator": "SSSangchu",
     "aliases": [
-      "QED Nerfed",
-      "Q.E.D. Nerfed",
-      "큐이디 너프",
-      "Quod Erat Demonstrandum Nerfed"
+      "타케히로테이",
+      "QED",
+      "Q.E.D.",
+      "큐이디",
+      "Quod Erat Demonstrandum",
+      "너프",
+      "Nerfed"
     ],
     "youtube": "https://youtu.be/iVKqJWMaI9M",
     "googleDrive": "https://drive.google.com/file/d/1v6L2ODKwpEeRJN9LMeIE7t0N0VxC1lxp/view?usp=sharing",
@@ -965,7 +1091,8 @@
       "NAMSU",
       "Sureon",
       "보리",
-      "펠렉스"
+      "펠렉스",
+      "풀이펙"
     ],
     "youtube": "https://youtu.be/RaT7Fa_Q_I8",
     "tuf": "https://tuforums.com/levels/423",
@@ -985,6 +1112,9 @@
     "composer": "shimen",
     "rating": "great",
     "creator": "SSSangchu",
+    "aliases": [
+      "리타"
+    ],
     "youtube": "https://youtu.be/dYXzQVOezIA",
     "googleDrive": "https://drive.google.com/file/d/1yAF1agjZE8jcHGkItFZdrPfQ0lsEOW_h/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/400",
@@ -1003,6 +1133,12 @@
     "composer": "Kara & Kyutatsuki",
     "rating": "brilliant",
     "creator": "쇼핑잉 | NfK, SSSangchu",
+    "aliases": [
+      "큐레스트폴",
+      "큐레스트펄",
+      "Shoppinging",
+      "얼불춤 한손 장인 NfK"
+    ],
     "youtube": "https://youtu.be/A8C0hYQ3uWA",
     "googleDrive": "https://drive.google.com/file/d/1ZxYgxQvfdnxPZrfzfzMqP6XTTC5yMdoT/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/1019",
@@ -1021,6 +1157,10 @@
     "composer": "DJ Raisei",
     "rating": "brilliant",
     "creator": "Creepy_Command vs. SSSangchu",
+    "aliases": [
+      "CCNekona",
+      "톤578",
+    ],
     "youtube": "https://youtu.be/5LaBwt3qA5U",
     "googleDrive": "https://drive.google.com/file/d/1rbD6Jzx-laT3vnKkC7btJ346LU_gW4bd/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/422",
@@ -1035,11 +1175,32 @@
     "diffNumber": "6",
     "ranking": "70",
     "rankingAccuracy": "no",
-    "title": "大地の閾を探して [Looking for Edge of Ground]",
-    "composer": "かめりあ (Camellia)",
+    "title": "大地の閾を探して",
+    "composer": "かめりあ (feat. 初音ミク)",
     "rating": "great",
     "creator": "SSSangchu | 빵속에건포도, 붕어빵, Lieci, GamingGoose239, Takoyaki, PillyXD, 냉동치킨, PELEX",
     "team": "CDF 2 Round 1 - Team B",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "Looking for Edge of Ground",
+      "LfEoG",
+      "Hatsune Miku",
+      "하츠네 미쿠",
+      "꿈끝마",
+      "꿈아 끝나지 마",
+      "ChyaRyam",
+      "박챠럄",
+      "GamingGooseTV",
+      "겜구",
+      "게이밍구스",
+      "Millemeter",
+      "Femboy",
+      "Frozen Chicken",
+      "펠렉스"
+    ],
     "youtube": "https://youtu.be/f8mcSGkkxlo?t=495",
     "tuf": "https://tuforums.com/levels/1873",
     "cosmopedia": "https://adofaiwiki.com/w/%E5%A4%A7%E5%9C%B0%E3%81%AE%E9%96%BE%E3%82%92%E6%8E%A2%E3%81%97%E3%81%A6/%ED%95%9C%EA%B0%80%EC%A7%80%20%EC%99%B8%208%EC%9D%B8%EC%9D%98%20%EB%A0%88%EB%B2%A8",
@@ -1059,6 +1220,19 @@
     "rating": "normal",
     "creator": "SSSangchu | 옥빔, 남수, sPαLd, p kh, 시온, 빵속에건포도, _OrangeFJ, 굥욷",
     "team": "Team Omega",
+    "aliases": [
+      "프럼즈 슈퍼믹스",
+      "프슈믹",
+      "Super Mix",
+      "엔셀라",
+      "Team +α",
+      "Ocbim",
+      "NAMSU",
+      "Shion",
+      "Xcion",
+      "7264",
+      "YOON"
+    ],
     "youtube": "https://youtu.be/w8VujWV99NE",
     "googleDrive": "https://drive.google.com/file/d/16rDlPMaF1lklSxPOBpI9LniCXWZfV4o1/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/1122",
@@ -1079,6 +1253,22 @@
     "rating": "normal",
     "creator": "SSSangchu | 붕어빵, NeBigh, DORA, 공구함, GamingGoose239, 수론잉",
     "team": "CDF 2 Round 2 - 오렌지상추쌈팀",
+    "aliases": [
+      "얀데레",
+      "얀대레",
+      "얀데래",
+      "얀대래",
+      "ChyaRyam",
+      "박챠럄",
+      "뇌빅",
+      "도라",
+      "공괌",
+      "toolbox",
+      "GamingGooseTV",
+      "겜구",
+      "게이밍구스",
+      "Sureon"
+    ],
     "youtube": "https://youtu.be/41zUnuq2RqM?t=462",
     "tuf": "https://tuforums.com/levels/1346",
     "release": "2023. 1. 21",
@@ -1306,7 +1496,16 @@
     "ranking": "32",
     "rankingAccuracy": "fixed",
     "title": "ΩΩPARTS 『100%pure』 (old)",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "옴옴파츠",
+      "오파츠",
+      "OOPARTS"
+    ],
     "rating": "normal",
     "creator": "SSSangchu",
     "youtube": "https://youtu.be/t16dPuQvFG0",
@@ -1327,6 +1526,15 @@
     "composer": "かめりあ (Camellia)",
     "rating": "normal",
     "creator": "SSSangchu",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "옴옴파츠",
+      "오파츠",
+      "OOPARTS"
+    ],
     "youtube": "https://youtu.be/5Y5H01S-bS8",
     "tuf": "https://tuforums.com/levels/12549",
     "cosmopedia": "https://adofaiwiki.com/w/ΩΩPARTS/%ED%95%9C%EA%B0%80%EC%A7%80%EC%9D%98%20%EB%A0%88%EB%B2%A8#s-5.1",
@@ -1418,10 +1626,19 @@
     "ranking": "31",
     "rankingAccuracy": "fixed",
     "title": "Camellia Supermix II",
-    "composer": "かめりあ (Camellia) (Mixed by Encela)",
+    "composer": "かめりあ (Mixed by Encela)",
     "rating": "great",
     "creator": "SSSangchu, 조미래, PELEX, Alpha, Nephrolepis, 지네고 | 공괌, PLORALD, ChyaRyam, 굥욷, Bingsu, yldo, ORTAL, 이린, 오이, Xoqmfflt",
     "team": "이린 & 16 More",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "슈퍼믹스",
+      "카슈믹 2",
+      "Super Mix"
+    ],
     "youtube": "https://youtu.be/mJ5OfE3pCF4",
     "googleDrive": "https://drive.google.com/file/d/1kBc8evY-B8e3XZTGMimqohP7BrPLH5Fr/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/1711",
@@ -1554,10 +1771,16 @@
     "ranking": "34",
     "rankingAccuracy": "unfixed",
     "title": "NIGHTMARE † CITY",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "normal",
     "creator": "SSSangchu | sediero, Ahhsyhw, 에프엘, 솜솜, ÒwÓLaDal, Olive, Speaker, 레캄 rekam",
     "team": "CDF 2023 Round 2 - Team CCCabbage",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백"
+    ],
     "youtube": "https://youtu.be/bWWdVaS4Pxs?t=1009",
     "tuf": "https://tuforums.com/levels/2515",
     "release": "2023. 9. 1",
@@ -1589,9 +1812,17 @@
     "ranking": "16",
     "rankingAccuracy": "fixed",
     "title": "Parallel Universe Shifter",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "SarouA",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "파라렐",
+      "PUS"
+    ],
     "youtube": "https://youtu.be/ho4iztOuA44",
     "googleDrive": "https://drive.google.com/file/d/1T68tD7fMcNPBzn_PaGItrykJsEAd13xq/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/2467",
@@ -1668,6 +1899,12 @@
     "rating": "brilliant",
     "creator": "SSSangchu | Han_rang, 송진우, 유한, 천뭉, 1329082, Vaccinium vitis-idaea L., 새제비",
     "team": "Epic Chart Team",
+    "aliases": [
+      "라이무쿤",
+      "아이시스",
+      "트루엔딩",
+      "야이개년아"
+    ],
     "youtube": "https://youtu.be/-OudqgrYokw",
     "googleDrive": "https://drive.google.com/file/d/17Sd9-WD9_hiftnIM5Amc34bPGO0lkbCM/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/2856",
@@ -1686,7 +1923,14 @@
     "title": "Re：set",
     "composer": "LucaProject",
     "rating": "great",
-    "creator": "SSSangchu (a.k.a. 내마라탕분모자누가먹었어)",
+    "creator": "내마라탕분모자누가먹었어",
+    "aliases": [
+      "루카프로젝트",
+      "Re set",
+      "Reset",
+      "리셋",
+      "SSSangchu"
+    ],
     "youtube": "https://youtu.be/eEPkC87okVI",
     "googleDrive": "https://drive.google.com/file/d/1wNAUg4qn2v5nD8iMej-titF94kOQ7wCC/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/6480",
@@ -1781,6 +2025,12 @@
     "rating": "normal",
     "creator": "Alpha | 상추융합체, SSSangchu, SarouA",
     "team": "Team SaroAlpha",
+    "aliases": [
+      "프럼즈",
+      "24달러",
+      "24딸라",
+      "알파"
+    ],
     "youtube": "https://youtu.be/OYspJ6c1oOo",
     "googleDrive": "https://drive.google.com/file/d/1XoX7LKt231kEqMuko3MW3eV4eeai2PWm/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/3436",
@@ -1799,6 +2049,10 @@
     "composer": "celtix & Ezame",
     "rating": "great",
     "creator": "한가지 & yoonsu",
+    "aliases": [
+      "trokreskita gardeno",
+      "윤수"
+    ],
     "youtube": "https://youtu.be/KDCU_qFvZvQ",
     "googleDrive": "https://drive.google.com/file/d/14zSG8jaDl_jrFyk5MR8QAJIdR14MZxQ5/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/7067",
@@ -1840,6 +2094,20 @@
     "rating": "normal",
     "creator": "Han_rang, SarouA, ABorinGuy, V0W4N, 새제비, oceanic shipping and trade, PELEX | 부산물, NoviceTowa., 옥빔, 한월, Nietiq, Pharah, GamingGooseTV, 1329082, 나, Han_rang, Star4th, 굥욷, Editor AlriC",
     "team": "AWC Chart Team 《Colorful》",
+    "aliases": [
+      "Ardolf",
+      "SDMNE",
+      "takehirotei",
+      "타케히로테이",
+      "Xeno",
+      "MetaHumanBoi",
+      "XH",
+      "Cinamoro",
+      "BilliumMoto",
+      "LABYRNTH",
+      "LABYRINTH",
+      "라비린스"
+    ],
     "youtube": "https://youtu.be/0DF3TBlKCno",
     "googleDrive": "https://adofai.gg/levels/4757",
     "tuf": "https://tuforums.com/levels/3776",
@@ -1991,9 +2259,17 @@
     "ranking": "28",
     "rankingAccuracy": "fixed",
     "title": "REX",
-    "composer": "かめりあ (Camellia)",
+    "composer": "かめりあ",
     "rating": "great",
     "creator": "한가지",
+    "aliases": [
+      "카멜리아",
+      "Camellia",
+      "카메리아",
+      "동백",
+      "렉스",
+      "랙스"
+    ],
     "youtube": "https://youtu.be/HqD_Y-JZVZo",
     "googleDrive": "https://drive.google.com/file/d/1c_bpw1oAr_4uJP8-A15XCRszKJK4-wgI/view?usp=sharing",
     "tuf": "https://tuforums.com/levels/6968",
