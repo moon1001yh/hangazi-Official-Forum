@@ -14,7 +14,7 @@ const translations = {
     numberDifficulty:"숫자 난이도",
     ratingGuide:"추천도",
     ratingExplain:"각 아이콘은 레벨에 대한 추천도를 나타냅니다.", rank:"순위", accuracy:"정확도", difficulty:"난이도",
-    title:"제목", composer:"작곡가", creator:"제작자", team:"팀", release:"출시일", length:"길이", bpm:"BPM", rating:"추천도", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
+    title:"제목", composer:"작곡가", creator:"제작자", team:"팀", release:"출시일", length:"길이", bpm:"BPM", rating:"추천도", dlc:"Neo Cosmos DLC 필요", ys:"YouTubeStream 모드 필요", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
     levelNotFound:"레벨을 찾을 수 없습니다.", back:"목록으로 돌아가기"
   },
   en: {
@@ -32,7 +32,7 @@ const translations = {
     numberDifficulty:"Numeric difficulty",
     ratingGuide:"Rating",
     ratingExplain:"Each icon represents the community rating for a level.", rank:"Rank", accuracy:"Accuracy", difficulty:"Difficulty",
-    title:"Title", composer:"Composer", creator:"Creator", team:"Team", release:"Release Date", length:"Length", bpm:"BPM", rating:"Rating", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
+    title:"Title", composer:"Composer", creator:"Creator", team:"Team", release:"Release Date", length:"Length", bpm:"BPM", rating:"Rating", dlc:"Neo Cosmos DLC Needed", ys:"YouTubeStream Mod Needed", levelId:"ID", youtube:"YouTube", googleDrive:"Google Drive", tuf:"TUF",
     levelNotFound:"Level not found.", back:"Back to list"
   }
 };
@@ -209,9 +209,9 @@ function renderDetail(id) {
   if (!level) { target.innerHTML = `<div class="detail-card"><h1>${t("levelNotFound")}</h1><a class="back-link" href="#levels">${t("back")}</a></div>`; return; }
   const [color,stroke] = numberColors[String(level.diffNumber)] || ["#ebc1ff","#000"];
   const detail = [
-    ["rank",`#${level.ranking} (${level.rankingAccuracy || "—"})`],
+    ["rank",`#${level.ranking} (${accuracyMark(level.rankingAccuracy) || "—"})`],
     ["difficulty",`${difficultyLabel(level.difficulty)} / ${numericLabel(level.diffNumber)}`],
-    ["levelId",level.id],["release",level.release],...(level.team ? [["team",level.team]] : []),["creator",level.creator],["rating",ratingLabel(level.rating)],...(level.length ? [["length",level.length]] : []),...(level.bpm ? [["bpm",level.bpm]] : [])
+    ["levelId",level.id],["release",level.release],...(level.team ? [["team",level.team]] : []),["creator",level.creator],["rating",ratingLabel(level.rating)],...(level.length ? [["length",level.length]] : []),...(level.bpm ? [["bpm",level.bpm]] : []),...(level.dlc ? [["dlc",level.dlc]] : []),...(level.ys ? [["ys",level.ys]] : [])
   ];
   const youtubeId = getYouTubeVideoId(level.youtube);
   const videoEmbed = youtubeId ? `<div class="video-embed"><iframe
