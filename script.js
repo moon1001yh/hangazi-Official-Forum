@@ -1,7 +1,7 @@
 const translations = {
   ko: {
     navHangazi:"한가지", navLevels:"레벨 목록", navHelp:"도움말", language:"언어", sourceSheet:"원본 스프레드시트",
-    profileDescription:"2020년 3월 25일부터 2026년 9월 27일까지 활동한 '불과 얼음의 춤' 레벨 제작자입니다.\n\n총 2377일의 활동 기간 동안 TremENDouS, Fallen Symphony, Icyxis, [ns], Parallel Universe Shifter, HALL, REX 등 수많은 영향력있는 레벨들을 제작했으며, 불과 얼음의 춤 레벨 제작 판에 수많은 기믹들을 통해 큰 영향력을 끼친 레벨 제작자입니다.\n\n한가지에 대한 자세한 내용은 그의 코스모피디아 페이지를 참고해주세요.",
+    profileDescription:"2020. 3. 25~2022. 3. 5: 상추융합체\n2021. 10. 4~2024. 1. 7: SSSangchu\n2024. 1. 8~2024. 1. 20: SarouA\n2024. 1. 21~2026. 4. 12: 가지지\n2026. 4. 13~: 한가지\n\n부명의: 딸기치즈, 내마라탕분모자누가먹었어, 브드그드, 쀼계정 등\n\n2020년 3월 25일부터 2026년 9월 27일까지 활동한 '불과 얼음의 춤' 레벨 제작자입니다.\n\n총 2377일의 활동 기간 동안 <a class='hyperlink' href='#level/102'>TremENDouS</a>, <a class='hyperlink' href='#level/115'>Fallen Symphony</a>, <a class='hyperlink' href='#level/129'>Icyxis</a>, <a class='hyperlink' href='#level/155'>[ns]</a>, <a class='hyperlink' href='#level/214'>Parallel Universe Shifter</a>, <a class='hyperlink' href='#level/248'>HALL</a>, <a class='hyperlink' href='#level/256'>REX</a> 등 수많은 영향력있는 레벨들을 제작했으며, 불과 얼음의 춤 레벨 제작 판에 수많은 기믹들을 통해 큰 영향력을 끼친 레벨 제작자입니다.\n\n한가지에 대한 자세한 내용은 그의 <a class='hyperlink' href='https://adofaiwiki.com/w/%ED%95%9C%EA%B0%80%EC%A7%80' target='_blank' rel='noopener'>코스모피디아 페이지</a>를 참고해주세요.",
     levelListTitle:"Level List", levelIntro:"레벨 정보를 검색하고 원하는 기준으로 정렬할 수 있습니다.",
     searchLabel:"레벨 검색", searchPlaceholder:"제목, 작곡가, 제작자 또는 ID 검색", sortBy:"정렬 기준", sortRanking:"순위", sortId:"ID", sortDifficulty:"난이도",
     order:"정렬 순서", ascending:"오름차순", descending:"내림차순", difficultyFilter:"난이도 필터", allDifficulties:"전체", ratingFilter:"추천도 필터", allRatings:"전체",
@@ -19,7 +19,7 @@ const translations = {
   },
   en: {
     navHangazi:"hangazi", navLevels:"Level List", navHelp:"Help", language:"Language", sourceSheet:"Original Spreadsheet",
-    profileDescription:"A level creator for A Dance of Fire and Ice who was active from March 25, 2020, to September 27, 2026.\n\nOver a span of 2,377 days, they created numerous influential levels—such as TremENDouS, Fallen Symphony, Icyxis, [ns], Parallel Universe Shifter, HALL, and REX—and left a significant mark on the ADOFAI level-creation community through the introduction of various creative gimmicks.\n\nFor further details, please refer to their Cosmopedia page.",
+    profileDescription:"2020. 3. 25-2022. 3. 5: 상추융합체\n2021. 10. 4-2024. 1. 7: SSSangchu\n2024. 1. 8-2024. 1. 20: SarouA\n2024. 1. 21-2026. 4. 12: Gazizi\n2026. 4. 13-: hangazi\n\na.k.a. 딸기치즈, 내마라탕분모자누가먹었어, 브드그드, 쀼계정 and more\n\nA level creator for A Dance of Fire and Ice who was active from March 25, 2020, to September 27, 2026.\n\nOver a span of 2,377 days, they created numerous influential levels—such as <a class='hyperlink' href='#level/102'>TremENDouS</a>, <a class='hyperlink' href='#level/115'>Fallen Symphony</a>, <a class='hyperlink' href='#level/129'>Icyxis</a>, <a class='hyperlink' href='#level/155'>[ns]</a>, <a class='hyperlink' href='#level/214'>Parallel Universe Shifter</a>, <a class='hyperlink' href='#level/248'>HALL</a>, and <a class='hyperlink' href='#level/256'>REX</a>—and left a significant mark on the ADOFAI level-creation community through the introduction of various creative gimmicks.\n\nFor further details, please refer to their <a class='hyperlink' href='https://adofaiwiki.com/w/%ED%95%9C%EA%B0%80%EC%A7%80' target='_blank' rel='noopener'>Cosmopedia page</a>.",
     levelListTitle:"Level List", levelIntro:"Search level information and sort it by your preferred criteria.",
     searchLabel:"Search levels", searchPlaceholder:"Search by title, composer, creator, or ID", sortBy:"Sort by", sortRanking:"Ranking", sortId:"ID", sortDifficulty:"Difficulty",
     order:"Order", ascending:"Ascending", descending:"Descending", difficultyFilter:"Difficulty filter", allDifficulties:"All", ratingFilter:"Rating filter", allRatings:"All",
@@ -55,7 +55,10 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const value = translations[lang][el.dataset.i18n];
-    if (value) el.textContent = value;
+    if (value) {
+      if (el.dataset.i18n === "profileDescription") el.innerHTML = value;
+      else el.textContent = value;
+    }
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const value = translations[lang][el.dataset.i18nPlaceholder];
@@ -150,7 +153,7 @@ function renderLevels() {
       externalLink(level.steam,"Steam",levelLinkIcon("icon/steam.png","Steam"))
     ].filter(Boolean).join("");
     return `<a class="level-row" href="#level/${encodeURIComponent(level.id)}">
-      <div class="rank">#${escapeHTML(level.ranking)}${accuracyMark(level.rankingAccuracy)}</div>
+      <div class="rank">${level.difficulty === "censored" ? "-" : `#${escapeHTML(level.ranking)}${accuracyMark(level.rankingAccuracy)}`}</div>
       <div class="diff-cell"><span class="difficulty-badge ${difficultyClass(diff)}">${escapeHTML(difficultyLabel(diff))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(num))}</span></div>
       <div class="level-title"><small>ID: ${escapeHTML(level.id)}</small><span class="level-composer">${escapeHTML(level.composer)} - </span>${escapeHTML(level.title)}${(level.length || level.bpm) ? `<small class="level-meta">${level.length ? `Length: ${escapeHTML(level.length)}` : ""}${level.length && level.bpm ? " · " : ""}${level.bpm ? `BPM: ${escapeHTML(level.bpm)}` : ""}</small>` : ""}</div>
       <img class="rating-icon" src="${ratingImage(level.rating)}" alt="${ratingLabel(level.rating)}" title="${ratingLabel(level.rating)}">
@@ -209,7 +212,7 @@ function renderDetail(id) {
   if (!level) { target.innerHTML = `<div class="detail-card"><h1>${t("levelNotFound")}</h1><a class="back-link" href="#levels">${t("back")}</a></div>`; return; }
   const [color,stroke] = numberColors[String(level.diffNumber)] || ["#ebc1ff","#000"];
   const detail = [
-    ["rank",`#${level.ranking} (${level.rankingAccuracy || "—"})`],
+    ["rank",level.difficulty === "censored" ? "-" : `#${escapeHTML(level.ranking)} ${accuracyMark(level.rankingAccuracy)}`],
     ["difficulty",`${difficultyLabel(level.difficulty)} / ${numericLabel(level.diffNumber)}`],
     ["levelId",level.id],["release",level.release],...(level.team ? [["team",level.team]] : []),["creator",level.creator],["rating",ratingLabel(level.rating)],...(level.length ? [["length",level.length]] : []),...(level.bpm ? [["bpm",level.bpm]] : []),...(level.dlc ? [["dlc",level.dlc]] : []),...(level.ys ? [["ys",level.ys]] : [])
   ];
@@ -227,7 +230,7 @@ function renderDetail(id) {
     <p class="detail-sub">ID: ${escapeHTML(level.id)}</p>
     <div class="diff-cell" style="align-items:flex-start;margin-bottom:24px"><span class="difficulty-badge ${difficultyClass(level.difficulty)}">${escapeHTML(difficultyLabel(level.difficulty))}</span><span class="diff-number" style="color:${color};-webkit-text-stroke-color:${stroke}">${escapeHTML(numericLabel(String(level.diffNumber)))}</span></div>
     ${videoEmbed}
-    <div class="detail-grid">${detail.map(([key,value]) => `<div class="detail-item"><span>${t(key)}</span><strong>${escapeHTML(value ?? "—")}</strong></div>`).join("")}</div>
+    <div class="detail-grid">${detail.map(([key,value]) => `<div class="detail-item"><span>${t(key)}</span><strong>${key === "rank" && level.difficulty !== "censored" ? value : escapeHTML(value ?? "—")}</strong></div>`).join("")}</div>
     <div class="detail-links">
       ${externalLink(level.youtube,"YouTube",levelLinkIcon("icon/youtube.png","YouTube"))}
       ${externalLink(level.cosmopedia,"Cosmopedia",levelLinkIcon("icon/cosmopedia.png","Cosmopedia"))}
